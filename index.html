@@ -1126,6 +1126,167 @@ button, input, select, textarea {
   border: 1px solid var(--border-crimson);
   white-space: nowrap;
 }
+
+/* ORGANIC UX & RESPONSIVE POLISH */
+.btn, .nav-tab, .mobile-nav-btn, .check-item, .block-step-item, .grade-btn {
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+.btn:active, .grade-btn:active {
+  transform: scale(0.97);
+}
+
+.daily-loop-bar {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin-top: 14px;
+}
+
+.loop-step-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  background: rgba(9, 8, 10, 0.72);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-secondary);
+  font-size: 0.78rem;
+  font-weight: 700;
+  cursor: pointer;
+  text-align: left;
+  transition: all 0.15s ease;
+}
+
+.loop-step-btn:hover {
+  border-color: var(--crimson-bright);
+  color: #ffffff;
+}
+
+.loop-step-btn.done {
+  border-color: rgba(16, 185, 129, 0.5);
+  background: rgba(16, 185, 129, 0.12);
+  color: #6ee7b7;
+}
+
+.mobile-subtabs {
+  display: none;
+  gap: 6px;
+  margin-bottom: 14px;
+  background: var(--bg-card);
+  padding: 6px;
+  border-radius: 12px;
+  border: 1px solid var(--border-subtle);
+}
+
+.mobile-subtab-btn {
+  flex: 1;
+  padding: 9px 8px;
+  border: none;
+  border-radius: 8px;
+  background: transparent;
+  color: var(--text-muted);
+  font-size: 0.78rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.mobile-subtab-btn.active {
+  background: rgba(220, 38, 38, 0.2);
+  color: #ffffff;
+  border: 1px solid var(--border-crimson);
+}
+
+.srs-flashcard-stage {
+  cursor: pointer;
+  user-select: none;
+}
+
+@media (max-width: 820px) {
+  .top-bar {
+    padding: 8px 12px;
+  }
+  .brand-text p {
+    display: none;
+  }
+  .brand-text h1 {
+    font-size: 1.05rem;
+  }
+  .ratoglota-emblem {
+    padding: 4px 8px 4px 6px;
+  }
+  .ratoglota-rat-svg {
+    width: 30px;
+    height: 30px;
+  }
+  .ratoglota-hanzi-char {
+    font-size: 1.2rem;
+  }
+  .top-controls {
+    width: 100%;
+    justify-content: space-between;
+    gap: 6px;
+  }
+  .control-pill {
+    padding: 4px 8px;
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+  .control-pill label {
+    display: none;
+  }
+  .control-pill select {
+    width: 100%;
+    font-size: 0.76rem;
+    text-overflow: ellipsis;
+  }
+  .container {
+    padding: 12px 12px;
+  }
+  .today-hero {
+    padding: 16px;
+    gap: 14px;
+  }
+  .today-hero h2 {
+    font-size: 1.15rem;
+  }
+  .daily-loop-bar {
+    grid-template-columns: 1fr;
+  }
+  .hero-stats-grid {
+    gap: 8px;
+  }
+  .stat-box {
+    padding: 10px;
+  }
+  .stat-box .stat-value {
+    font-size: 1.05rem;
+  }
+  .mobile-subtabs {
+    display: flex;
+  }
+  .comm-col-hidden-mobile {
+    display: none !important;
+  }
+  .form-input, input, select, textarea {
+    font-size: 16px !important;
+  }
+  .btn, .grade-btn {
+    min-height: 44px;
+  }
+  .mobile-nav-btn {
+    padding: 6px 4px;
+    font-size: 0.62rem;
+    min-height: 48px;
+    flex: 1;
+  }
+  .timer-digits {
+    font-size: 2.9rem;
+  }
+}
+
 </style>
 </head>
 <body>
@@ -1214,24 +1375,14 @@ button, input, select, textarea {
         <span>OFENSIVA: 0 DIAS</span>
       </div>
 
-      <button class="btn btn-secondary btn-sm" onclick="openSyncModal()">Sincronizar Nuvem</button>
+      <button class="btn btn-emerald btn-sm" id="cloudStatusBtn" onclick="openSyncModal()" title="Sincronização instantânea em tempo real">Nuvem: Conectando...</button>
       <button class="btn btn-primary btn-sm" id="pwaInstallBtn" onclick="triggerPwaInstall()">Instalar App</button>
     </div>
   </div>
 </header>
 
 <main class="container">
-  <!-- CLEAN SLATE AUTH / LOGIN BANNER (SHOWN WHEN NO PROFILE IS LOGGED IN) -->
-  <section class="auth-banner" id="cleanSlateBanner">
-    <div class="auth-banner-info">
-      <h2>Bem-vindo ao Ratoglota — Crie ou Conecte seu Perfil para Começar</h2>
-      <p>O sistema inicia limpo (sem perfis pré-prontos e sem dias marcados). Crie seu perfil pessoal, escolha seu idioma e sua carga horária (20m a 3h/dia) ou conecte o banco em nuvem da sua turma.</p>
-    </div>
-    <div style="display:flex;gap:10px;flex-wrap:wrap;">
-      <button class="btn btn-primary" onclick="openProfileModal()">Criar ou Acessar Meu Perfil</button>
-      <button class="btn btn-secondary" onclick="openSyncModal()">Conectar Sala da Turma</button>
-    </div>
-  </section>
+  <!-- COMPACT CLEAN SLATE HOOK INTEGRATED INTO HERO -->
 
   <!-- HERO: DIRECTIVE OF THE DAY -->
   <section class="today-hero">
@@ -1240,9 +1391,25 @@ button, input, select, textarea {
       <h2 id="heroTitle">Crie seu perfil ou selecione seu dia na Semana 0 para iniciar</h2>
       <p id="heroDescription">O Ratoglota integra os guias da pasta 10. Idiomas, flashcards SRS no próprio navegador com pronúncia nativa, cronômetro dividido por turnos (até 3 horas/dia) e mural + chat em grupo.</p>
       <div class="hero-actions">
-        <button class="btn btn-primary" onclick="switchTab('timer')">Iniciar Cronômetro do Turno</button>
-        <button class="btn btn-crimson-outline" onclick="switchTab('flashcards')">Revisar Flashcards SRS (<span id="heroDueCount">0</span>)</button>
-        <a id="heroDocLink" href="https://drive.google.com/drive/folders/1oQdCbxz08FEiXRfABL-gKn7b8_SeE3qy" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">Abrir Guia 08.1 no Drive</a>
+        <button class="btn btn-primary" id="heroPrimaryAuthBtn" onclick="openProfileModal()">Criar ou Acessar Meu Perfil</button>
+        <button class="btn btn-crimson-outline" onclick="switchTab('timer')">Iniciar Cronômetro</button>
+        <button class="btn btn-secondary" onclick="switchTab('flashcards')">Flashcards (<span id="heroDueCount">0</span>)</button>
+        <a id="heroDocLink" href="https://drive.google.com/drive/folders/1oQdCbxz08FEiXRfABL-gKn7b8_SeE3qy" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">Guia 08.1</a>
+      </div>
+
+      <div class="daily-loop-bar" aria-label="Fluxo Diário Recomendado">
+        <button class="loop-step-btn" id="loopStep1" onclick="switchTab('flashcards')">
+          <span>1. Revisar SRS</span>
+          <span class="pill-tag" id="loopStep1Badge">Pendente</span>
+        </button>
+        <button class="loop-step-btn" id="loopStep2" onclick="switchTab('timer')">
+          <span>2. Cumprir Turno</span>
+          <span class="pill-tag" id="loopStep2Badge">0 blocos</span>
+        </button>
+        <button class="loop-step-btn" id="loopStep3" onclick="focusCheckinBox()">
+          <span>3. Check-in no Grupo</span>
+          <span class="pill-tag" id="loopStep3Badge">Pendente</span>
+        </button>
       </div>
     </div>
 
@@ -1300,9 +1467,14 @@ button, input, select, textarea {
 
   <!-- ==================== TAB 1: COMUNIDADE, GYMRATS FEED & CHAT ==================== -->
   <section id="tab-comunidade" class="view-section active">
+    <div class="mobile-subtabs" aria-label="Alternar visão da comunidade no celular">
+      <button class="mobile-subtab-btn active" data-sub="placar" onclick="switchMobileCommSub('placar')">Placar e Check-in</button>
+      <button class="mobile-subtab-btn" data-sub="mural" onclick="switchMobileCommSub('mural')">Mural</button>
+      <button class="mobile-subtab-btn" data-sub="chat" onclick="switchMobileCommSub('chat')">Chat ao Vivo</button>
+    </div>
     <div class="grid-3">
       <!-- COL 1: RANKING DE OFENSIVAS + CHECK-IN -->
-      <div class="card">
+      <div class="card" id="commColPlacar">
         <div class="card-header">
           <div>
             <div class="card-title">Placar da Comunidade</div>
@@ -1340,7 +1512,7 @@ button, input, select, textarea {
       </div>
 
       <!-- COL 2: MURAL DE CHECK-INS (ESTILO GYMRATS) -->
-      <div class="card">
+      <div class="card comm-col-hidden-mobile" id="commColMural">
         <div class="card-header">
           <div>
             <div class="card-title">Mural de Check-ins Diários</div>
@@ -1352,7 +1524,7 @@ button, input, select, textarea {
       </div>
 
       <!-- COL 3: CHAT DA COMUNIDADE -->
-      <div class="card">
+      <div class="card comm-col-hidden-mobile" id="commColChat">
         <div class="card-header">
           <div>
             <div class="card-title">Chat da Comunidade Ratoglota</div>
@@ -1410,7 +1582,7 @@ button, input, select, textarea {
           </div>
         </div>
 
-        <div class="srs-flashcard-stage" id="srsStage">
+        <div class="srs-flashcard-stage" id="srsStage" onclick="handleSrsStageTap(event)">
           <div style="width:100%;display:flex;justify-content:space-between;align-items:center;">
             <span class="pill-tag crimson" id="srsCardTag">Tag</span>
             <span class="pill-tag" id="srsCardStateBadge">Novo</span>
@@ -1666,23 +1838,27 @@ button, input, select, textarea {
 <nav class="mobile-bottom-nav" aria-label="Navegação Mobile">
   <button class="mobile-nav-btn active" data-tab="comunidade" onclick="switchTab('comunidade')">
     <svg class="svg-icon" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
-    <span>Comunidade</span>
+    <span>Grupo</span>
   </button>
   <button class="mobile-nav-btn" data-tab="flashcards" onclick="switchTab('flashcards')">
     <svg class="svg-icon" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M7 8h10"/></svg>
-    <span>Flashcards</span>
+    <span>Cards</span>
   </button>
   <button class="mobile-nav-btn" data-tab="timer" onclick="switchTab('timer')">
     <svg class="svg-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-    <span>Timer 04.1</span>
+    <span>Timer</span>
   </button>
   <button class="mobile-nav-btn" data-tab="onboarding" onclick="switchTab('onboarding')">
     <svg class="svg-icon" viewBox="0 0 24 24"><path d="M9 11l3 3L22 4"/></svg>
-    <span>Semana 0</span>
+    <span>Passos</span>
   </button>
   <button class="mobile-nav-btn" data-tab="trilha" onclick="switchTab('trilha')">
     <svg class="svg-icon" viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
-    <span>Guias Drive</span>
+    <span>Guias</span>
+  </button>
+  <button class="mobile-nav-btn" data-tab="videos" onclick="switchTab('videos')">
+    <svg class="svg-icon" viewBox="0 0 24 24"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+    <span>Vídeos</span>
   </button>
 </nav>
 
@@ -2163,12 +2339,14 @@ const TRAIL_STEPS = [
 // ==================== APPLICATION STATE (STARTS 100% CLEAN / "SECO") ====================
 const STORAGE_KEY = "ratoglota_v2_clean_state";
 
+const DEFAULT_FIREBASE_URL = "https://ratoglota-default-rtdb.firebaseio.com";
+
 function createDefaultState() {
   return {
     activeProfileId: null,
     selectedLang: "chines",
     selectedSchedule: "45",
-    cloudSyncUrl: "",
+    cloudSyncUrl: DEFAULT_FIREBASE_URL,
     profiles: [], // Starts completely empty ("vir seco") — each user logs in or creates their own profile
     feed: [],     // Starts empty — populated by real check-ins from connected friends
     chat: [],     // Starts empty — real community chat messages
@@ -2191,7 +2369,11 @@ function loadState() {
     const raw = localStorage.getItem(STORAGE_KEY);
     if (!raw) return createDefaultState();
     const parsed = JSON.parse(raw);
-    return Object.assign(createDefaultState(), parsed);
+    const merged = Object.assign(createDefaultState(), parsed);
+    if (!merged.cloudSyncUrl || !String(merged.cloudSyncUrl).trim()) {
+      merged.cloudSyncUrl = DEFAULT_FIREBASE_URL;
+    }
+    return merged;
   } catch (e) {
     return createDefaultState();
   }
@@ -2203,7 +2385,6 @@ function saveState() {
   } catch (e) {
     console.warn("Erro ao salvar no localStorage:", e);
   }
-  pushToCloud();
 }
 
 function getActiveProfile() {
@@ -2240,8 +2421,7 @@ function initApp() {
   renderAll();
 
   if (state.cloudSyncUrl) {
-    pullFromCloud(false);
-    setInterval(() => pullFromCloud(false), 8000);
+    startRealtimeSync();
   }
 }
 
@@ -2251,11 +2431,7 @@ function renderAll() {
   const langCfg = LANGUAGES[langKey];
   const schedCfg = SCHEDULE_MODES[state.selectedSchedule] || SCHEDULE_MODES["45"];
 
-  // Toggle Clean Slate Banner
-  const cleanBanner = document.getElementById("cleanSlateBanner");
-  if (cleanBanner) {
-    cleanBanner.style.display = activeProfile ? "none" : "flex";
-  }
+
 
   // Update Profile Selector
   const profSelect = document.getElementById("profileSelect");
@@ -2327,6 +2503,7 @@ function renderAll() {
   renderOnboardingSection();
   renderDriveTrailSection();
   renderVideosSection();
+  updateDailyLoopBar();
 }
 
 // ==================== PROFILE AUTH (CLEAN SLATE LOGIN / CREATE) ====================
@@ -2403,6 +2580,7 @@ function handleProfileAuth(e) {
 
   closeProfileModal();
   saveState();
+  pushEntityToCloud('profiles/' + (existing ? existing.id : state.activeProfileId), state.profiles.find(p => p.id === state.activeProfileId));
   renderAll();
 }
 
@@ -2594,9 +2772,12 @@ function submitDailyCheckin() {
     timeLabel: timeLabel
   });
 
+  const latestFeedItem = state.feed[0];
   summaryInput.value = "";
   phraseInput.value = "";
   saveState();
+  pushEntityToCloud('profiles/' + active.id, active);
+  if (latestFeedItem) pushEntityToCloud('feed/' + latestFeedItem.id, latestFeedItem);
   renderAll();
   showToast(`Check-in registrado! Sua ofensiva agora é de ${active.streak} ${active.streak === 1 ? 'dia' : 'dias'}.`);
 }
@@ -2606,6 +2787,7 @@ function respectCheckin(chkId) {
   if (!item) return;
   item.respects = (item.respects || 0) + 1;
   saveState();
+  pushEntityToCloud('feed/' + item.id, item);
   renderCommunitySection();
 }
 
@@ -2668,8 +2850,10 @@ function sendChatMessage(e) {
     timeLabel: timeLabel
   });
 
+  const latestMsg = state.chat[state.chat.length - 1];
   input.value = "";
   saveState();
+  if (latestMsg) pushEntityToCloud('chat/' + latestMsg.id, latestMsg);
   renderChatMessages();
 }
 
@@ -3261,8 +3445,19 @@ function renderVideosSection() {
   `;
 }
 
-// ==================== CLOUD SYNC (FIREBASE REALTIME DB + ROOM CODE) ====================
+// ==================== CLOUD SYNC INSTANTÂNEO (FIREBASE SSE + REST ATÔMICO) ====================
+let cloudEventSource = null;
+let cloudFallbackInterval = null;
+
+function setCloudStatusUI(label, isLive) {
+  const btn = document.getElementById("cloudStatusBtn");
+  if (!btn) return;
+  btn.textContent = label;
+  btn.className = isLive ? "btn btn-emerald btn-sm" : "btn btn-secondary btn-sm";
+}
+
 function openSyncModal() {
+  document.getElementById("cloudSyncUrlInput").value = state.cloudSyncUrl || DEFAULT_FIREBASE_URL;
   document.getElementById("syncModal").classList.add("open");
 }
 
@@ -3270,12 +3465,23 @@ function closeSyncModal() {
   document.getElementById("syncModal").classList.remove("open");
 }
 
-function getCloudEndpointUrl() {
-  const raw = (state.cloudSyncUrl || "").trim();
-  if (!raw || !raw.startsWith("https://")) return null;
+function normalizeFirebaseBase(raw) {
+  let s = String(raw || "").trim();
+  if (!s) return null;
+  if (/^https?:\/\//i.test(s)) {
+    s = s.replace(/^http:\/\//i, "https://").replace(/^https:\/\//i, "https://");
+  } else {
+    s = "https://" + s;
+  }
+  return s.endsWith("/") ? s : s + "/";
+}
+
+function getCloudEndpointUrl(subPath) {
+  const base = normalizeFirebaseBase(state.cloudSyncUrl || DEFAULT_FIREBASE_URL);
+  if (!base) return null;
   try {
-    const base = raw.endsWith("/") ? raw : raw + "/";
-    return new URL("ratoglota_community.json", base).href;
+    const cleanSub = subPath ? ("ratoglota_community/" + subPath + ".json") : "ratoglota_community.json";
+    return new URL(cleanSub, base).href;
   } catch (e) {
     return null;
   }
@@ -3283,29 +3489,174 @@ function getCloudEndpointUrl() {
 
 function saveCloudSyncUrl() {
   const val = document.getElementById("cloudSyncUrlInput").value.trim();
-  state.cloudSyncUrl = val;
+  state.cloudSyncUrl = val || DEFAULT_FIREBASE_URL;
   saveState();
-  if (val) {
-    pullFromCloud(true);
-  } else {
-    showToast("URL de nuvem removida.");
+  startRealtimeSync();
+  showToast("URL salva! Sincronização instantânea ativada.");
+}
+
+function normalizeCollectionToArray(rawVal, sortDescBy) {
+  if (!rawVal) return [];
+  const arr = Array.isArray(rawVal) ? rawVal.filter(Boolean) : Object.values(rawVal).filter(Boolean);
+  if (sortDescBy === "feed") {
+    return arr.sort((a, b) => String(b.id || "").localeCompare(String(a.id || "")));
+  }
+  if (sortDescBy === "chat") {
+    return arr.sort((a, b) => String(a.id || "").localeCompare(String(b.id || "")));
+  }
+  return arr;
+}
+
+function applyCloudSnapshot(data) {
+  if (!data || typeof data !== "object") return;
+  if (data.profiles !== undefined) {
+    state.profiles = normalizeCollectionToArray(data.profiles);
+  }
+  if (data.feed !== undefined) {
+    state.feed = normalizeCollectionToArray(data.feed, "feed");
+  }
+  if (data.chat !== undefined) {
+    state.chat = normalizeCollectionToArray(data.chat, "chat");
+  }
+  try {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+  } catch (e) {}
+  renderAll();
+}
+
+function applyCloudPatch(path, data) {
+  if (!path || path === "/") {
+    applyCloudSnapshot(data);
+    return;
+  }
+  const parts = path.split("/").filter(Boolean);
+  if (parts.length < 2) {
+    pullFromCloud(false);
+    return;
+  }
+  const bucket = parts[0];
+  const itemId = parts[1];
+  if (bucket === "profiles") {
+    const idx = state.profiles.findIndex(p => p.id === itemId);
+    if (data === null && idx >= 0) state.profiles.splice(idx, 1);
+    else if (data) {
+      if (idx >= 0) state.profiles[idx] = data;
+      else state.profiles.push(data);
+    }
+  } else if (bucket === "feed") {
+    const idx = state.feed.findIndex(f => f.id === itemId);
+    if (data === null && idx >= 0) state.feed.splice(idx, 1);
+    else if (data) {
+      if (idx >= 0) state.feed[idx] = data;
+      else state.feed.unshift(data);
+    }
+  } else if (bucket === "chat") {
+    const idx = state.chat.findIndex(c => c.id === itemId);
+    if (data === null && idx >= 0) state.chat.splice(idx, 1);
+    else if (data) {
+      if (idx >= 0) state.chat[idx] = data;
+      else state.chat.push(data);
+    }
+  }
+  try {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+  } catch (e) {}
+  renderAll();
+}
+
+function startRealtimeSync() {
+  if (cloudEventSource) {
+    cloudEventSource.close();
+    cloudEventSource = null;
+  }
+  if (cloudFallbackInterval) {
+    clearInterval(cloudFallbackInterval);
+    cloudFallbackInterval = null;
+  }
+
+  const endpoint = getCloudEndpointUrl();
+  if (!endpoint) {
+    setCloudStatusUI("Nuvem: Offline", false);
+    return;
+  }
+
+  // Initial pull
+  pullFromCloud(false);
+
+  // Instant SSE streaming via Firebase Realtime Database EventSource
+  if ("EventSource" in window) {
+    try {
+      cloudEventSource = new EventSource(endpoint);
+      cloudEventSource.addEventListener("open", () => {
+        setCloudStatusUI("Nuvem: Ao Vivo", true);
+      });
+      cloudEventSource.addEventListener("put", (evt) => {
+        setCloudStatusUI("Nuvem: Ao Vivo", true);
+        try {
+          const parsed = JSON.parse(evt.data);
+          applyCloudPatch(parsed.path, parsed.data);
+        } catch (e) {}
+      });
+      cloudEventSource.addEventListener("patch", (evt) => {
+        setCloudStatusUI("Nuvem: Ao Vivo", true);
+        try {
+          const parsed = JSON.parse(evt.data);
+          if (parsed && parsed.data && typeof parsed.data === "object") {
+            Object.keys(parsed.data).forEach(k => {
+              const fullPath = parsed.path === "/" ? ("/" + k) : (parsed.path + "/" + k);
+              applyCloudPatch(fullPath, parsed.data[k]);
+            });
+          }
+        } catch (e) {}
+      });
+      cloudEventSource.addEventListener("error", () => {
+        setCloudStatusUI("Nuvem: Reconectando...", false);
+      });
+    } catch (e) {
+      setCloudStatusUI("Nuvem: Polling", false);
+    }
+  }
+
+  // Backup sync every 15s in case SSE pauses on mobile background
+  cloudFallbackInterval = setInterval(() => pullFromCloud(false), 15000);
+}
+
+async function pushEntityToCloud(subPath, payloadObj) {
+  if (!subPath || !payloadObj) return;
+  const endpoint = getCloudEndpointUrl(subPath);
+  if (!endpoint) return;
+  try {
+    await fetch(endpoint, {
+      method: "PUT",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payloadObj)
+    });
+  } catch (e) {
+    console.warn("Falha no envio atômico:", e);
   }
 }
 
 async function pushToCloud() {
+  // Atomic writes already push profiles, feed, and chat immediately; keep full sync helper for manual/initial setup
   const endpoint = getCloudEndpointUrl();
   if (!endpoint) return;
   try {
-    const payload = {
-      profiles: state.profiles,
-      feed: state.feed.slice(0, 60),
-      chat: state.chat.slice(-80),
-      updatedAt: Date.now()
-    };
+    const profilesMap = {};
+    state.profiles.forEach(p => { if (p && p.id) profilesMap[p.id] = p; });
+    const feedMap = {};
+    state.feed.slice(0, 60).forEach(f => { if (f && f.id) feedMap[f.id] = f; });
+    const chatMap = {};
+    state.chat.slice(-80).forEach(c => { if (c && c.id) chatMap[c.id] = c; });
+
     await fetch(endpoint, {
-      method: "PUT",
+      method: "PATCH",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(payload)
+      body: JSON.stringify({
+        profiles: profilesMap,
+        feed: feedMap,
+        chat: chatMap,
+        updatedAt: Date.now()
+      })
     });
   } catch (e) {
     console.warn("Falha ao sincronizar com nuvem:", e);
@@ -3322,19 +3673,16 @@ async function pullFromCloud(notifyUser) {
     const res = await fetch(endpoint);
     if (!res.ok) throw new Error("HTTP " + res.status);
     const data = await res.json();
+    setCloudStatusUI("Nuvem: Ao Vivo", true);
     if (data && typeof data === "object") {
-      if (Array.isArray(data.profiles)) state.profiles = data.profiles;
-      if (Array.isArray(data.feed)) state.feed = data.feed;
-      if (Array.isArray(data.chat)) state.chat = data.chat;
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
-      renderAll();
-      if (notifyUser) showToast("Comunidade e chat sincronizados com a nuvem!");
+      applyCloudSnapshot(data);
+      if (notifyUser) showToast("Comunidade e chat sincronizados em tempo real!");
     } else if (notifyUser) {
-      await pushToCloud();
-      showToast("Banco inicializado na nuvem com o estado atual da sala!");
+      showToast("Conectado ao banco Firebase! A sala está pronta para o primeiro perfil.");
     }
   } catch (e) {
-    if (notifyUser) showToast("Não foi possível conectar à URL informada. Verifique se as regras do Realtime Database estão públicas (.read/.write: true).");
+    setCloudStatusUI("Nuvem: Erro de Acesso", false);
+    if (notifyUser) showToast("Não foi possível conectar. Verifique se o Realtime Database está em modo de teste (.read e .write: true).");
   }
 }
 
@@ -3373,6 +3721,78 @@ function importRoomSyncCode() {
 }
 
 // ==================== TAB NAVIGATION & PWA INSTALL ====================
+
+function switchMobileCommSub(sub) {
+  document.querySelectorAll(".mobile-subtab-btn").forEach(b => {
+    b.classList.toggle("active", b.getAttribute("data-sub") === sub);
+  });
+  const placar = document.getElementById("commColPlacar");
+  const mural = document.getElementById("commColMural");
+  const chat = document.getElementById("commColChat");
+  if (placar) placar.classList.toggle("comm-col-hidden-mobile", sub !== "placar");
+  if (mural) mural.classList.toggle("comm-col-hidden-mobile", sub !== "mural");
+  if (chat) chat.classList.toggle("comm-col-hidden-mobile", sub !== "chat");
+}
+
+function focusCheckinBox() {
+  switchTab("comunidade");
+  switchMobileCommSub("placar");
+  const inp = document.getElementById("checkinSummaryInput");
+  if (inp) {
+    inp.scrollIntoView({ behavior: "smooth", block: "center" });
+    setTimeout(() => inp.focus(), 250);
+  }
+}
+
+function handleSrsStageTap(evt) {
+  if (evt.target.closest("button") || evt.target.closest("a")) return;
+  const showBtn = document.getElementById("srsShowAnswerBtn");
+  if (showBtn && showBtn.style.display !== "none") {
+    revealSrsAnswer();
+  }
+}
+
+function updateDailyLoopBar() {
+  const active = getActiveProfile();
+  const authBtn = document.getElementById("heroPrimaryAuthBtn");
+  if (authBtn) {
+    authBtn.style.display = active ? "none" : "inline-flex";
+  }
+
+  // Step 1: SRS due count
+  const deck = ensureUserDeck();
+  const now = Date.now();
+  const due = deck.filter(c => c.state === "new" || c.dueAt <= now).length;
+  const s1 = document.getElementById("loopStep1");
+  const s1b = document.getElementById("loopStep1Badge");
+  if (s1 && s1b) {
+    s1.classList.toggle("done", due === 0);
+    s1b.textContent = due === 0 ? "Concluído" : `${due} devidos`;
+  }
+
+  // Step 2: Timer blocks
+  const curSched = SCHEDULE_MODES[state.selectedSchedule] || SCHEDULE_MODES["45"];
+  const doneMap = (active && active.completedTimerBlocks) ? active.completedTimerBlocks : {};
+  const doneCount = curSched.blocks.filter(b => doneMap[b.id]).length;
+  const s2 = document.getElementById("loopStep2");
+  const s2b = document.getElementById("loopStep2Badge");
+  if (s2 && s2b) {
+    const allDone = doneCount >= curSched.blocks.length;
+    s2.classList.toggle("done", allDone);
+    s2b.textContent = `${doneCount}/${curSched.blocks.length}`;
+  }
+
+  // Step 3: Check-in today
+  const todayStr = new Date().toISOString().slice(0, 10);
+  const checkedToday = Boolean(active && active.lastCheckinDate === todayStr);
+  const s3 = document.getElementById("loopStep3");
+  const s3b = document.getElementById("loopStep3Badge");
+  if (s3 && s3b) {
+    s3.classList.toggle("done", checkedToday);
+    s3b.textContent = checkedToday ? "Feito hoje" : "Pendente";
+  }
+}
+
 function switchTab(tabId) {
   document.querySelectorAll(".view-section").forEach(sec => {
     sec.classList.toggle("active", sec.id === "tab-" + tabId);
