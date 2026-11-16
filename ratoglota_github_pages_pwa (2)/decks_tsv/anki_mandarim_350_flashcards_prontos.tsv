@@ -1,0 +1,351 @@
+#separator:tab
+#html:true
+#tags column:3
+我	<b>wǒ</b> — eu (Pronome)<br><i>Exemplo:</i> 我是巴西人。 (Eu sou brasileiro.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+你	<b>nǐ</b> — você (Pronome)<br><i>Exemplo:</i> 你好吗？ (Como você está?)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+他	<b>tā</b> — ele (Pronome)<br><i>Exemplo:</i> 他是我的老师。 (Ele é meu professor.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+她	<b>tā</b> — ela (Pronome)<br><i>Exemplo:</i> 她很漂亮。 (Ela é muito bonita.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+我们	<b>wǒmen</b> — nós (Pronome)<br><i>Exemplo:</i> 我们是朋友。 (Nós somos amigos.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+你们	<b>nǐmen</b> — vocês (Pronome)<br><i>Exemplo:</i> 你们好！ (Olá a vocês!)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+他们	<b>tāmen</b> — eles (Pronome)<br><i>Exemplo:</i> 他们都在家。 (Eles todos estão em casa.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+这	<b>zhè</b> — isto / este (Pronome)<br><i>Exemplo:</i> 这是什么？ (O que é isto?)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+那	<b>nà</b> — aquilo / aquele (Pronome)<br><i>Exemplo:</i> 那是我的书。 (Aquele é o meu livro.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+哪	<b>nǎ</b> — qual (Pronome)<br><i>Exemplo:</i> 哪个人是你的哥哥？ (Qual pessoa é seu irmão mais velho?)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+哪儿	<b>nǎr</b> — onde (Pronome)<br><i>Exemplo:</i> 你要去哪儿？ (Para onde você vai?)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+谁	<b>shéi</b> — quem (Pronome)<br><i>Exemplo:</i> 谁是你的中文老师？ (Quem é seu professor de chinês?)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+什么	<b>shénme</b> — o que / qual (Pronome)<br><i>Exemplo:</i> 你想吃什么？ (O que você quer comer?)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+多少	<b>duōshao</b> — quanto(s) (Pronome)<br><i>Exemplo:</i> 这个多少钱？ (Quanto custa isto?)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+几	<b>jǐ</b> — quantos (pequenas quantidades)<br><i>Exemplo:</i> 你有几个苹果？ (Quantas maçãs você tem?)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+怎么	<b>zěnme</b> — como (Pronome)<br><i>Exemplo:</i> 这个字怎么读？ (Como se lê este caractere?)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+怎么样	<b>zěnmeyàng</b> — que tal / como está<br><i>Exemplo:</i> 今天天气怎么样？ (Como está o tempo hoje?)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+是	<b>shì</b> — ser / sim (Verbo)<br><i>Exemplo:</i> 我是学生。 (Eu sou estudante.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+有	<b>yǒu</b> — ter / haver (Verbo)<br><i>Exemplo:</i> 我有两个弟弟。 (Eu tenho dois irmãos mais novos.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+看	<b>kàn</b> — olhar / ver / ler (Verbo)<br><i>Exemplo:</i> 我在看书。 (Estou lendo um livro.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+听	<b>tīng</b> — escutar / ouvir (Verbo)<br><i>Exemplo:</i> 请听我说。 (Por favor, me escute.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+说话	<b>shuōhuà</b> — falar (Verbo)<br><i>Exemplo:</i> 他喜欢说话。 (Ele gosta de falar.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+读	<b>dú</b> — ler em voz alta (Verbo)<br><i>Exemplo:</i> 请读这段文字。 (Por favor, leia este trecho.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+写	<b>xiě</b> — escrever (Verbo)<br><i>Exemplo:</i> 你会写汉字吗？ (Você sabe escrever caracteres chineses?)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+看见	<b>kànjiàn</b> — ver / enxergar (Verbo)<br><i>Exemplo:</i> 我看见他了。 (Eu o vi.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+叫	<b>jiào</b> — chamar-se (Verbo)<br><i>Exemplo:</i> 我叫王伟。 (Eu me chamo Wang Wei.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+来	<b>lái</b> — vir (Verbo)<br><i>Exemplo:</i> 请来到这里。 (Por favor, venha até aqui.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+去	<b>qù</b> — ir (Verbo)<br><i>Exemplo:</i> 我们要去中国。 (Nós vamos para a China.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+回	<b>huí</b> — voltar (Verbo)<br><i>Exemplo:</i> 我下午回家。 (Eu volto para casa à tarde.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+吃	<b>chī</b> — comer (Verbo)<br><i>Exemplo:</i> 你想吃米饭吗？ (Você quer comer arroz?)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+喝	<b>hē</b> — beber (Verbo)<br><i>Exemplo:</i> 我想喝茶。 (Eu quero beber chá.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+睡觉	<b>shuìjiào</b> — dormir (Verbo)<br><i>Exemplo:</i> 他去睡觉了。 (Ele foi dormir.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+工作	<b>gōngzuò</b> — trabalhar / trabalho<br><i>Exemplo:</i> 我在医院工作。 (Eu trabalho no hospital.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+学习	<b>xuéxí</b> — estudar (Verbo)<br><i>Exemplo:</i> 我爱学习汉语。 (Eu amo estudar chinês.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+想	<b>xiǎng</b> — querer / pensar / sentir falta<br><i>Exemplo:</i> 我想去中国。 (Eu quero ir para a China.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+爱	<b>ài</b> — amar (Verbo)<br><i>Exemplo:</i> 我爱你。 (Eu amo você.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+喜欢	<b>xǐhuan</b> — gostar (Verbo)<br><i>Exemplo:</i> 我喜欢吃中国菜。 (Eu gosto de comer comida chinesa.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+认识	<b>rènshi</b> — conhecer (Verbo)<br><i>Exemplo:</i> 很高兴认识你。 (Muito prazer em conhecer você.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+会	<b>huì</b> — saber (habilidade aprendida) / ir fazer<br><i>Exemplo:</i> 我会说汉语。 (Eu sei falar chinês.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+能	<b>néng</b> — poder / ser capaz<br><i>Exemplo:</i> 我今天能去。 (Hoje eu consigo ir.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+好	<b>hǎo</b> — bom (Adjetivo)<br><i>Exemplo:</i> 这个很好。 (Isto é muito bom.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+大	<b>dà</b> — grande (Adjetivo)<br><i>Exemplo:</i> 这个苹果很大。 (Esta maçã é muito grande.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+小	<b>xiǎo</b> — pequeno (Adjetivo)<br><i>Exemplo:</i> 那个猫很小。 (Aquele gato é bem pequeno.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+多	<b>duō</b> — muito (quantidade)<br><i>Exemplo:</i> 这里人很多。 (Aqui tem muita gente.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+少	<b>shǎo</b> — pouco (Adjetivo)<br><i>Exemplo:</i> 水很少。 (Há pouca água.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+冷	<b>lěng</b> — frio (Adjetivo)<br><i>Exemplo:</i> 今天天气很冷。 (O clima hoje está muito frio.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+热	<b>rè</b> — quente (Adjetivo)<br><i>Exemplo:</i> 夏天太热了。 (O verão é quente demais.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+高兴	<b>gāoxìng</b> — feliz / alegre<br><i>Exemplo:</i> 我今天很高兴。 (Estou muito feliz hoje.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+漂亮	<b>piàoliang</b> — bonito / lindo<br><i>Exemplo:</i> 她的衣服很漂亮。 (A roupa dela é muito bonita.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+家	<b>jiā</b> — casa / família<br><i>Exemplo:</i> 我家在北京。 (Minha casa fica em Pequim.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+学校	<b>xuéxiào</b> — escola<br><i>Exemplo:</i> 我们的学校很大。 (Nossa escola é muito grande.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+饭店	<b>fàndiàn</b> — restaurante / hotel<br><i>Exemplo:</i> 我们去饭店吃饭吧。 (Vamos comer no restaurante.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+商店	<b>shāngdiàn</b> — loja<br><i>Exemplo:</i> 商店里有很多东西。 (Na loja há muitas coisas.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+医院	<b>yīyuàn</b> — hospital<br><i>Exemplo:</i> 他去医院看医生了。 (Ele foi ao hospital ver o médico.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+中国	<b>Zhōngguó</b> — China<br><i>Exemplo:</i> 我想去中国旅游。 (Eu quero viajar para a China.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+北京	<b>Běijīng</b> — Pequim<br><i>Exemplo:</i> 北京是中国的首都。 (Pequim é a capital da China.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+上	<b>shàng</b> — em cima / subir<br><i>Exemplo:</i> 桌子上有一本书。 (Em cima da mesa há um livro.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+下	<b>xià</b> — embaixo / descer<br><i>Exemplo:</i> 椅子下面有一只猫。 (Debaixo da cadeira há um gato.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+前面	<b>qiánmiàn</b> — frente / na frente<br><i>Exemplo:</i> 学校前面有一个超市。 (Na frente da escola há um supermercado.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+后面	<b>hòumiàn</b> — atrás<br><i>Exemplo:</i> 我家后面有一座山。 (Atrás da minha casa há uma montanha.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+今天	<b>jīntiān</b> — hoje<br><i>Exemplo:</i> 今天天气很好。 (O tempo hoje está muito bom.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+明天	<b>míngtiān</b> — amanhã<br><i>Exemplo:</i> 明天见！ (Até amanhã!)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+昨天	<b>zuótiān</b> — ontem<br><i>Exemplo:</i> 我昨天没有去学校。 (Ontem eu não fui à escola.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+上午	<b>shàngwǔ</b> — manhã (período)<br><i>Exemplo:</i> 我上午有课。 (Eu tenho aula de manhã.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+中午	<b>zhōngwǔ</b> — meio-dia<br><i>Exemplo:</i> 我们中午一起吃饭。 (Vamos almoçar juntos ao meio-dia.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+下午	<b>xiàwǔ</b> — tarde (período)<br><i>Exemplo:</i> 下午我有空。 (À tarde estou livre.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+年	<b>nián</b> — ano<br><i>Exemplo:</i> 我今年二十岁。 (Eu tenho 20 anos este ano.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+月	<b>yuè</b> — mês / lua<br><i>Exemplo:</i> 一月天气很冷。 (Em janeiro o tempo é muito frio.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+日	<b>rì</b> — dia / sol<br><i>Exemplo:</i> 今天是五月一号。 (Hoje é dia 1º de maio.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+星期	<b>xīngqī</b> — semana<br><i>Exemplo:</i> 今天是星期一。 (Hoje é segunda-feira.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+点	<b>diǎn</b> — horas (no relógio)<br><i>Exemplo:</i> 现在是八点。 (Agora são 8 horas.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+分钟	<b>fēnzhōng</b> — minuto<br><i>Exemplo:</i> 请等我五分钟。 (Por favor, espere 5 minutos.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+现在	<b>xiànzài</b> — agora<br><i>Exemplo:</i> 现在几点了？ (Que horas são agora?)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+时候	<b>shíhou</b> — momento / quando<br><i>Exemplo:</i> 你什么时候回家？ (Quando você volta para casa?)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+爸爸	<b>bàba</b> — pai<br><i>Exemplo:</i> 我爸爸是医生。 (Meu pai é médico.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+妈妈	<b>māma</b> — mãe<br><i>Exemplo:</i> 我妈妈做饭很好吃。 (Minha mãe cozinha muito bem.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+儿子	<b>érzi</b> — filho<br><i>Exemplo:</i> 他有两个儿子。 (Ele tem dois filhos.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+女儿	<b>nǚ'ér</b> — filha<br><i>Exemplo:</i> 她的女儿很可爱。 (A filha dela é muito fofa.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+老师	<b>lǎoshī</b> — professor(a)<br><i>Exemplo:</i> 李老师教我们汉语。 (O professor Li nos ensina chinês.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+学生	<b>xuésheng</b> — estudante<br><i>Exemplo:</i> 我们都是学生。 (Nós todos somos estudantes.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+同学	<b>tóngxué</b> — colega de classe<br><i>Exemplo:</i> 这是我的同学。 (Este é meu colega de classe.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+朋友	<b>péngyou</b> — amigo(a)<br><i>Exemplo:</i> 他是我的好朋友。 (Ele é meu bom amigo.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+医生	<b>yīshēng</b> — médico(a)<br><i>Exemplo:</i> 去医院看医生。 (Ir ao hospital ver o médico.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+东西	<b>dōngxi</b> — coisa / objeto<br><i>Exemplo:</i> 你买什么东西？ (Que coisas você vai comprar?)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+水	<b>shuǐ</b> — água<br><i>Exemplo:</i> 请喝水。 (Por favor, beba água.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+菜	<b>cài</b> — prato / comida / verdura<br><i>Exemplo:</i> 中国菜很好吃。 (Comida chinesa é muito gostosa.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+米饭	<b>mǐfàn</b> — arroz cozido<br><i>Exemplo:</i> 我喜欢吃米饭。 (Eu gosto de comer arroz.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+水果	<b>shuǐguǒ</b> — fruta<br><i>Exemplo:</i> 你想吃水果吗？ (Você quer comer fruta?)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+苹果	<b>píngguǒ</b> — maçã<br><i>Exemplo:</i> 我买了一个苹果。 (Comprei uma maçã.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+茶	<b>chá</b> — chá<br><i>Exemplo:</i> 中国茶很香。 (O chá chinês é muito aromático.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+猫	<b>māo</b> — gato<br><i>Exemplo:</i> 我家有一只小猫。 (Em casa há um gatinho.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+狗	<b>gǒu</b> — cachorro<br><i>Exemplo:</i> 那只狗很大。 (Aquele cachorro é muito grande.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+飞机	<b>fēijī</b> — avião<br><i>Exemplo:</i> 我坐飞机去北京。 (Vou de avião para Pequim.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+出租车	<b>chūzūchē</b> — táxi<br><i>Exemplo:</i> 我们坐出租车去吧。 (Vamos de táxi.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+电视	<b>diànshì</b> — televisão<br><i>Exemplo:</i> 他在看电视。 (Ele está assistindo TV.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+电脑	<b>diànnǎo</b> — computador<br><i>Exemplo:</i> 我用电脑工作。 (Eu uso o computador para trabalhar.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+电影	<b>diànyǐng</b> — filme<br><i>Exemplo:</i> 我们晚上去看电影。 (Vamos ver um filme à noite.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+天气	<b>tiānqì</b> — tempo / clima<br><i>Exemplo:</i> 今天天气不错。 (O tempo hoje está ótimo.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+字	<b>zì</b> — caractere / letra<br><i>Exemplo:</i> 这个汉字很难写。 (Este caractere chinês é difícil de escrever.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+汉语	<b>Hànyǔ</b> — idioma chinês (Mandarim)<br><i>Exemplo:</i> 我每天学习汉语。 (Eu estudo mandarim todos os dias.)	Mandarim::01_Vocabulario_Fundamental nivel::hsk1
+你好！	<b>nǐ hǎo!</b> (pronunciado <i>ní hǎo</i>)<br>Olá! — Saudação básica universal.	Mandarim::02_Frases_Fundamentais nivel::hsk1
+你好吗？	<b>nǐ hǎo ma?</b><br>Como você está? — Perguntando sobre o bem-estar.	Mandarim::02_Frases_Fundamentais nivel::hsk1
+我很好，谢谢。	<b>wǒ hěn hǎo, xièxie.</b><br>Estou muito bem, obrigado.	Mandarim::02_Frases_Fundamentais nivel::hsk1
+你叫什么名字？	<b>nǐ jiào shénme míngzi?</b><br>Qual é o seu nome?	Mandarim::02_Frases_Fundamentais nivel::hsk1
+我叫 Pedro。	<b>wǒ jiào Pedro.</b><br>Meu nome é Pedro. — Forma padrão de se apresentar.	Mandarim::02_Frases_Fundamentais nivel::hsk1
+很高兴认识你。	<b>hěn gāoxìng rènshi nǐ.</b><br>Muito prazer em conhecê-lo(a).	Mandarim::02_Frases_Fundamentais nivel::hsk1
+你是哪国人？	<b>nǐ shì nǎ guó rén?</b><br>De qual país você é?	Mandarim::02_Frases_Fundamentais nivel::hsk1
+我是巴西人。	<b>wǒ shì Bāxī rén.</b><br>Eu sou brasileiro(a).	Mandarim::02_Frases_Fundamentais nivel::hsk1
+你会说英语吗？	<b>nǐ huì shuō Yīngyǔ ma?</b><br>Você sabe falar inglês?	Mandarim::02_Frases_Fundamentais nivel::hsk1
+我会说一点儿汉语。	<b>wǒ huì shuō yìdiǎnr Hànyǔ.</b><br>Eu falo um pouco de mandarim.	Mandarim::02_Frases_Fundamentais nivel::hsk1
+对不起。	<b>duìbuqǐ.</b><br>Desculpe / Perdão.	Mandarim::02_Frases_Fundamentais nivel::hsk1
+没关系。	<b>méi guānxi.</b><br>Sem problemas / Imagina! (Resposta para <i>duìbuqǐ</i>).	Mandarim::02_Frases_Fundamentais nivel::hsk1
+谢谢！	<b>xièxie!</b><br>Obrigado(a)!	Mandarim::02_Frases_Fundamentais nivel::hsk1
+不客气。	<b>bú kèqi.</b><br>De nada! (Note o Sandhi: <i>bù</i> vira <i>bú</i> antes do 4º tom!).	Mandarim::02_Frases_Fundamentais nivel::hsk1
+再见！	<b>zàijiàn!</b><br>Tchau / Até logo!	Mandarim::02_Frases_Fundamentais nivel::hsk1
+明天见！	<b>míngtiān jiàn!</b><br>Até amanhã!	Mandarim::02_Frases_Fundamentais nivel::hsk1
+请问，现在几点了？	<b>qǐngwèn, xiànzài jǐ diǎn le?</b><br>Com licença, que horas são agora?	Mandarim::02_Frases_Fundamentais nivel::hsk1
+现在是下午三点。	<b>xiànzài shì xiàwǔ sān diǎn.</b><br>Agora são três horas da tarde.	Mandarim::02_Frases_Fundamentais nivel::hsk1
+你今天忙吗？	<b>nǐ jīntiān máng ma?</b><br>Você está ocupado(a) hoje?	Mandarim::02_Frases_Fundamentais nivel::hsk1
+我不忙。	<b>wǒ bù máng.</b><br>Eu não estou ocupado(a).	Mandarim::02_Frases_Fundamentais nivel::hsk1
+这个多少钱？	<b>zhège duōshao qián?</b><br>Quanto custa isto?	Mandarim::02_Frases_Fundamentais nivel::hsk1
+太贵了！	<b>tài guì le!</b><br>Muito caro!	Mandarim::02_Frases_Fundamentais nivel::hsk1
+便宜一点儿吧。	<b>piányi yìdiǎnr ba.</b><br>Faça um pouco mais barato!	Mandarim::02_Frases_Fundamentais nivel::hsk1
+我要买这个。	<b>wǒ yào mǎi zhège.</b><br>Eu quero comprar este.	Mandarim::02_Frases_Fundamentais nivel::hsk1
+你可以刷卡吗？	<b>nǐ kěyǐ shuākǎ ma?</b><br>Pode passar cartão?	Mandarim::02_Frases_Fundamentais nivel::hsk2
+洗手间在哪儿？	<b>xǐshǒujiān zài nǎr?</b><br>Onde fica o banheiro?	Mandarim::02_Frases_Fundamentais nivel::hsk1
+在右边。	<b>zài yòubiān.</b><br>Fica à direita.	Mandarim::02_Frases_Fundamentais nivel::hsk2
+在左边。	<b>zài zuǒbiān.</b><br>Fica à esquerda.	Mandarim::02_Frases_Fundamentais nivel::hsk2
+一直走。	<b>yìzhí zǒu.</b><br>Siga reto / Sempre em frente.	Mandarim::02_Frases_Fundamentais nivel::hsk2
+我想去这里。	<b>wǒ xiǎng qù zhèlǐ.</b><br>Eu quero ir para cá.	Mandarim::02_Frases_Fundamentais nivel::hsk1
+请问，去地铁站怎么走？	<b>qǐngwèn, qù dìtiězhàn zěnme zǒu?</b><br>Com licença, como chego à estação de metrô?	Mandarim::02_Frases_Fundamentais nivel::hsk2
+你要吃什么？	<b>nǐ yào chī shénme?</b><br>O que você vai comer?	Mandarim::02_Frases_Fundamentais nivel::hsk1
+服务员，请给我菜单。	<b>fúwùyuán, qǐng gěi wǒ càidān.</b><br>Garçom, por favor me dê o cardápio.	Mandarim::02_Frases_Fundamentais nivel::hsk2
+买单！	<b>mǎidān!</b><br>A conta, por favor!	Mandarim::02_Frases_Fundamentais nivel::hsk2
+这个很好吃。	<b>zhège hěn hǎochī.</b><br>Isto está muito gostoso.	Mandarim::02_Frases_Fundamentais nivel::hsk1
+我不吃肉。	<b>wǒ bù chī ròu.</b><br>Eu não como carne.	Mandarim::02_Frases_Fundamentais nivel::hsk2
+请不要放辣。	<b>qǐng bú yào fàng là.</b><br>Por favor, não coloque pimenta.	Mandarim::02_Frases_Fundamentais nivel::hsk2
+我想要一杯水。	<b>wǒ xiǎng yào yì bēi shuǐ.</b><br>Eu gostaria de um copo de água.	Mandarim::02_Frases_Fundamentais nivel::hsk1
+你在做什么？	<b>nǐ zài zuò shénme?</b><br>O que você está fazendo?	Mandarim::02_Frases_Fundamentais nivel::hsk1
+我在看书。	<b>wǒ zài kàn shū.</b><br>Estou lendo um livro.	Mandarim::02_Frases_Fundamentais nivel::hsk1
+你住在哪儿？	<b>nǐ zhù zài nǎr?</b><br>Onde você mora?	Mandarim::02_Frases_Fundamentais nivel::hsk1
+我住在圣保罗州。	<b>wǒ zhù zài Shèngbǎoluó zhōu.</b><br>Eu moro no estado de São Paulo.	Mandarim::02_Frases_Fundamentais nivel::hsk1
+你的电话号码是多少？	<b>nǐ de diànhuà hàomǎ shì duōshao?</b><br>Qual é o número do seu telefone?	Mandarim::02_Frases_Fundamentais nivel::hsk1
+我听不懂。	<b>wǒ tīng bù dǒng.</b><br>Eu não entendo (ouvindo). — Frase essencial de sobrevivência!	Mandarim::02_Frases_Fundamentais nivel::hsk1
+请说慢一点儿。	<b>qǐng shuō màn yìdiǎnr.</b><br>Por favor, fale um pouco mais devagar.	Mandarim::02_Frases_Fundamentais nivel::hsk1
+请再说一遍。	<b>qǐng zài shuō yí biàn.</b><br>Por favor, repita mais uma vez.	Mandarim::02_Frases_Fundamentais nivel::hsk2
+这个用中文怎么说？	<b>zhège yòng Zhōngwén zěnme shuō?</b><br>Como se diz isto em chinês?	Mandarim::02_Frases_Fundamentais nivel::hsk2
+这个字是什么意思？	<b>zhège zì shì shénme yìsi?</b><br>O que significa este caractere?	Mandarim::02_Frases_Fundamentais nivel::hsk2
+我会一点儿中文。	<b>wǒ huì yìdiǎnr Zhōngwén.</b><br>Eu sei um pouco de chinês.	Mandarim::02_Frases_Fundamentais nivel::hsk1
+我身体很舒服。	<b>wǒ shēntǐ hěn shūfu.</b><br>Estou me sentindo muito bem fisicamente.	Mandarim::02_Frases_Fundamentais nivel::hsk2
+我不舒服。	<b>wǒ bù shūfu.</b><br>Não estou me sentindo bem.	Mandarim::02_Frases_Fundamentais nivel::hsk2
+我感冒了。	<b>wǒ gǎnmào le.</b><br>Eu peguei um resfriado.	Mandarim::02_Frases_Fundamentais nivel::hsk2
+我头疼。	<b>wǒ tóuténg.</b><br>Estou com dor de cabeça.	Mandarim::02_Frases_Fundamentais nivel::hsk2
+你需要去医院吗？	<b>nǐ xūyào qù yīyuàn ma?</b><br>Você precisa ir ao hospital?	Mandarim::02_Frases_Fundamentais nivel::hsk2
+今天天气很好。	<b>jīntiān tiānqì hěn hǎo.</b><br>O tempo está ótimo hoje.	Mandarim::02_Frases_Fundamentais nivel::hsk1
+明天会下雨吗？	<b>míngtiān huì xiàyǔ ma?</b><br>Vai chover amanhã?	Mandarim::02_Frases_Fundamentais nivel::hsk1
+太热了！	<b>tài rè le!</b><br>Está quente demais!	Mandarim::02_Frases_Fundamentais nivel::hsk1
+今天很冷。	<b>jīntiān hěn lěng.</b><br>Hoje está muito frio.	Mandarim::02_Frases_Fundamentais nivel::hsk1
+你喜欢什么运动？	<b>nǐ xǐhuan shénme yùndòng?</b><br>De qual esporte você gosta?	Mandarim::02_Frases_Fundamentais nivel::hsk2
+我喜欢去健身房。	<b>wǒ xǐhuan qù jiànshēnfáng.</b><br>Eu gosto de ir à academia.	Mandarim::02_Frases_Fundamentais nivel::hsk2
+你有时间吗？	<b>nǐ yǒu shíjiān ma?</b><br>Você tem tempo / está livre?	Mandarim::02_Frases_Fundamentais nivel::hsk2
+我们一起去吃晚饭吧。	<b>wǒmen yìqǐ qù chī wǎnfàn ba.</b><br>Vamos jantar juntos!	Mandarim::02_Frases_Fundamentais nivel::hsk2
+好啊，没问题！	<b>hǎo a, méi wèntí!</b><br>Claro, sem problema!	Mandarim::02_Frases_Fundamentais nivel::hsk2
+真抱歉，我没有时间。	<b>zhēn bàoqiàn, wǒ méiyǒu shíjiān.</b><br>Sinto muito, não tenho tempo.	Mandarim::02_Frases_Fundamentais nivel::hsk2
+你在哪里工作？	<b>nǐ zài nǎlǐ gōngzuò?</b><br>Onde você trabalha?	Mandarim::02_Frases_Fundamentais nivel::hsk1
+我在学法律。	<b>wǒ zài xué fǎlǜ.</b><br>Eu estudo Direito.	Mandarim::02_Frases_Fundamentais nivel::hsk2
+工作很有意思。	<b>gōngzuò hěn yǒu yìsi.</b><br>O trabalho é muito interessante.	Mandarim::02_Frases_Fundamentais nivel::hsk2
+今天开会吗？	<b>jīntiān kāihuì ma?</b><br>Haverá reunião hoje?	Mandarim::02_Frases_Fundamentais nivel::hsk2
+请发给我邮件。	<b>qǐng fā gěi wǒ yóujiàn.</b><br>Por favor, me envie um e-mail.	Mandarim::02_Frases_Fundamentais nivel::hsk2
+你在学习什么？	<b>nǐ zài xuéxí shénme?</b><br>O que você está estudando?	Mandarim::02_Frases_Fundamentais nivel::hsk1
+我正在学习汉语语法。	<b>wǒ zhèngzài xuéxí Hànyǔ yǔfǎ.</b><br>Estou estudando gramática chinesa agora.	Mandarim::02_Frases_Fundamentais nivel::hsk2
+汉语语法不太难。	<b>Hànyǔ yǔfǎ bú tài nán.</b><br>A gramática chinesa não é muito difícil.	Mandarim::02_Frases_Fundamentais nivel::hsk2
+汉字很有意思。	<b>Hànzì hěn yǒu yìsi.</b><br>Os caracteres chineses são muito interessantes.	Mandarim::02_Frases_Fundamentais nivel::hsk2
+我每天学习半个小时汉语。	<b>wǒ měitiān xuéxí bàn gè xiǎoshí Hànyǔ.</b><br>Eu estudo chinês por meia hora todos os dias.	Mandarim::02_Frases_Fundamentais nivel::hsk2
+祝你生日快乐！	<b>zhù nǐ shēngrì kuàilè!</b><br>Feliz aniversário para você!	Mandarim::02_Frases_Fundamentais nivel::hsk2
+祝你新年快乐！	<b>zhù nǐ xīnnián kuàilè!</b><br>Feliz Ano Novo!	Mandarim::02_Frases_Fundamentais nivel::hsk2
+干杯！	<b>gānbēi!</b><br>Saúde! / Tim-tim!	Mandarim::02_Frases_Fundamentais nivel::hsk2
+一路平安！	<b>yílù píng'ān!</b><br>Boa viagem!	Mandarim::02_Frases_Fundamentais nivel::hsk2
+加油！	<b>jiāyóu!</b><br>Força! / Vamos lá! / Você consegue!	Mandarim::02_Frases_Fundamentais nivel::hsk2
+因为今天下雨，所以我们没去。	<b>yīnwèi jīntiān xiàyǔ, suǒyǐ wǒmen méi qù.</b><br>Como choveu hoje, nós não fomos.	Mandarim::02_Frases_Fundamentais nivel::hsk2
+虽然很难，但是我想试试。	<b>suīrán hěn nán, dànshì wǒ xiǎng shìshi.</b><br>Embora seja difícil, quero tentar.	Mandarim::02_Frases_Fundamentais nivel::hsk2
+他比我高。	<b>tā bǐ wǒ gāo.</b><br>Ele é mais alto do que eu.	Mandarim::02_Frases_Fundamentais nivel::hsk2
+我要去中国旅游。	<b>wǒ yào qù Zhōngguó lǚyóu.</b><br>Eu vou viajar para a China.	Mandarim::02_Frases_Fundamentais nivel::hsk1
+你买机票了吗？	<b>nǐ mǎi jīpiào le ma?</b><br>Você já comprou a passagem de avião?	Mandarim::02_Frases_Fundamentais nivel::hsk2
+酒店在哪里？	<b>jiǔdiàn zài nǎlǐ?</b><br>Onde fica o hotel?	Mandarim::02_Frases_Fundamentais nivel::hsk2
+请帮我拍照。	<b>qǐng bāng wǒ pāizhào.</b><br>Por favor, tire uma foto para mim.	Mandarim::02_Frases_Fundamentais nivel::hsk2
+这里的风景真美！	<b>zhèlǐ de fēngjǐng zhēn měi!</b><br>A paisagem daqui é realmente linda!	Mandarim::02_Frases_Fundamentais nivel::hsk2
+我不懂这个词的意思。	<b>wǒ bù dǒng zhège cí de yìsi.</b><br>Não entendo o significado desta palavra.	Mandarim::02_Frases_Fundamentais nivel::hsk2
+这个可以用支付宝吗？	<b>zhège kěyǐ yòng Zhīfùbào ma?</b><br>Posso usar o Alipay para isto?	Mandarim::02_Frases_Fundamentais nivel::hsk2
+微信支付可以吗？	<b>Wēixìn zhīfù kěyǐ ma?</b><br>Pode ser pagamento via WeChat?	Mandarim::02_Frases_Fundamentais nivel::hsk2
+请问，附近有银行吗？	<b>qǐngwèn, fùjìn yǒu yínháng ma?</b><br>Com licença, tem algum banco por perto?	Mandarim::02_Frases_Fundamentais nivel::hsk2
+我找不到我的手机了。	<b>wǒ zhǎo bú dào wǒ de shǒujī le.</b><br>Não consigo encontrar meu celular.	Mandarim::02_Frases_Fundamentais nivel::hsk2
+请帮帮我。	<b>qǐng bāngbang wǒ.</b><br>Por favor, me ajude.	Mandarim::02_Frases_Fundamentais nivel::hsk2
+别担心。	<b>bié dānxīn.</b><br>Não se preocupe.	Mandarim::02_Frases_Fundamentais nivel::hsk2
+没问题，包在我身上。	<b>méi wèntí, bāo zài wǒ shēnshang.</b><br>Sem problema, deixa comigo!	Mandarim::02_Frases_Fundamentais nivel::hsk3
+时间不早了，我该走了。	<b>shíjiān bù zǎo le, wǒ gāi zǒu le.</b><br>Já está ficando tarde, preciso ir.	Mandarim::02_Frases_Fundamentais nivel::hsk2
+保持联系！	<b>bǎochí liánxì!</b><br>Vamos manter contato!	Mandarim::02_Frases_Fundamentais nivel::hsk2
+祝你今天过得愉快！	<b>zhù nǐ jīntiān guò de yúkuài!</b><br>Desejo que você tenha um ótimo dia!	Mandarim::02_Frases_Fundamentais nivel::hsk2
+[Pronúncia] Contraste: j vs zh (鸡 jī vs 知 zhī)	<b>jī (鸡) vs zhī (知)</b><br>• <b>j</b>: Ponta da língua presa nos dentes de baixo (palatal).<br>• <b>zh</b>: Ponta da língua curvada para trás no céu da boca (retroflexo).	Mandarim::03_Pronuncia_Pares_Minimos
+[Pronúncia] Contraste: j vs zh (家 jiā vs 扎 zhā)	<b>jiā (家) vs zhā (扎)</b><br>• Em <b>jiā</b>, os lábios ficam esticados como num sorriso.<br>• Em <b>zhā</b>, a ponta da língua sobe no palato duro.	Mandarim::03_Pronuncia_Pares_Minimos
+[Pronúncia] Contraste: j vs zh (紧 jǐn vs 枕 zhěn)	<b>jǐn (紧) vs zhěn (枕)</b><br>Nenhum dos dois tem sopro forte de ar; a diferença está apenas na ponta da língua (embaixo vs curvada).	Mandarim::03_Pronuncia_Pares_Minimos
+[Pronúncia] Contraste: j vs zh (镜 jìng vs 正 zhèng)	<b>jìng (镜) vs zhèng (正)</b><br>Ambos terminam com nasal velar <b>-ng</b> no fundo da garganta.	Mandarim::03_Pronuncia_Pares_Minimos
+[Pronúncia] Contraste: q vs ch (七 qī vs 吃 chī)	<b>qī (七 - sete) vs chī (吃 - comer)</b><br>Ambos soltam forte jato de ar! <b>q</b> é frontal (língua embaixo); <b>ch</b> é retroflexo (língua no céu da boca).	Mandarim::03_Pronuncia_Pares_Minimos
+[Pronúncia] Contraste: q vs ch (强 qiáng vs 长 cháng)	<b>qiáng (强) vs cháng (长)</b><br>Sinta a explosão de ar em ambos, mudando a posição da ponta da língua.	Mandarim::03_Pronuncia_Pares_Minimos
+[Pronúncia] Contraste: q vs ch (亲 qīn vs 伸 shēn/chēn)	<b>qīn (亲) vs chēn (嗔)</b><br><b>q</b> só existe antes de <i>i</i> e <i>ü</i>.	Mandarim::03_Pronuncia_Pares_Minimos
+[Pronúncia] Contraste: q vs ch (去 qù vs 处 chù)	<b>qù (去 - ir) vs chù (处 - lugar)</b><br>Lembre-se: depois de j, q, x, a letra <b>u</b> é sempre pronunciada como <b>ü</b> (língua no I + bico de U)!	Mandarim::03_Pronuncia_Pares_Minimos
+[Pronúncia] Contraste: x vs sh (西 xī vs 师 shī)	<b>xī (西 - oeste) vs shī (师 - mestre)</b><br>• <b>x</b>: Ch suave com a ponta da língua nos dentes inferiores.<br>• <b>sh</b>: Ch encorpado com a língua curvada para trás.	Mandarim::03_Pronuncia_Pares_Minimos
+[Pronúncia] Contraste: x vs sh (香 xiāng vs 商 shāng)	<b>xiāng (香) vs shāng (商)</b><br>Em <b>xiāng</b> a boca sorri levemente; em <b>shāng</b> a língua recua.	Mandarim::03_Pronuncia_Pares_Minimos
+[Pronúncia] Contraste: x vs sh (心 xīn vs 身 shēn)	<b>xīn (心 - coração) vs shēn (身 - corpo)</b><br>Ambos terminam com <b>-n</b> dental (ponta da língua toca atrás dos dentes superiores no fim).	Mandarim::03_Pronuncia_Pares_Minimos
+[Pronúncia] Contraste: x vs sh (学 xué vs 说 shuō)	<b>xué (学 - estudar) vs shuō (说 - falar)</b><br><b>xué</b> tem som de <i>üé</i>; <b>shuō</b> tem som de <i>uô</i>.	Mandarim::03_Pronuncia_Pares_Minimos
+[Pronúncia] Contraste: z vs zh (灾 zāi vs 摘 zhāi)	<b>zāi (灾) vs zhāi (摘)</b><br>• <b>z</b> = "dz" surdo na ponta dos dentes (como em <i>pizza</i>).<br>• <b>zh</b> = retroflexo no céu da boca.	Mandarim::03_Pronuncia_Pares_Minimos
+[Pronúncia] Contraste: z vs zh (攒 zǎn vs 展 zhǎn)	<b>zǎn (攒) vs zhǎn (展)</b><br>Não solte jato de ar em nenhum dos dois!	Mandarim::03_Pronuncia_Pares_Minimos
+[Pronúncia] Contraste: z vs zh (宗 zōng vs 中 zhōng)	<b>zōng (宗) vs zhōng (中 - meio/China)</b><br>Dentes fechados em <b>z</b> vs língua recuada em <b>zh</b>.	Mandarim::03_Pronuncia_Pares_Minimos
+[Pronúncia] Contraste: z vs zh (造 zào vs 照 zhào)	<b>zào (造) vs zhào (照)</b><br>Treine alternando a ponta da língua: dentes da frente (z) -> céu da boca (zh).	Mandarim::03_Pronuncia_Pares_Minimos
+[Pronúncia] Contraste: c vs ch (擦 cā vs 插 chā)	<b>cā (擦) vs chā (插)</b><br>• <b>c</b> = "ts" com forte sopro de ar nos dentes.<br>• <b>ch</b> = "tch" retroflexo com forte sopro de ar.	Mandarim::03_Pronuncia_Pares_Minimos
+[Pronúncia] Contraste: c vs ch (采 cǎi vs 拆 chǎi)	<b>cǎi (采) vs chǎi (拆)</b><br>Coloque a mão na frente da boca: o vento precisa bater na mão nos dois!	Mandarim::03_Pronuncia_Pares_Minimos
+[Pronúncia] Contraste: c vs ch (聪 cōng vs 冲 chōng)	<b>cōng (聪) vs chōng (冲)</b><br>Nunca leia a letra <b>c</b> do Pinyin como "k" ou "s": ela é sempre <b>ts aspirado</b>!	Mandarim::03_Pronuncia_Pares_Minimos
+[Pronúncia] Contraste: c vs ch (醋 cù vs 触 chù)	<b>cù (醋 - vinagre) vs chù (触 - tocar)</b><br>Contraste clássico de "ts" aspirado vs "tch" retroflexo aspirado.	Mandarim::03_Pronuncia_Pares_Minimos
+[Pronúncia] Contraste: s vs sh (三 sān vs 山 shān)	<b>sān (三 - três) vs shān (山 - montanha)</b><br>• <b>s</b> = "ss" de sapo.<br>• <b>sh</b> = "x" com a língua curvada no céu da boca.	Mandarim::03_Pronuncia_Pares_Minimos
+[Pronúncia] Contraste: s vs sh (丝 sī vs 师 shī)	<b>sī (丝 - seda) vs shī (师 - mestre)</b><br>Com vogal vazia: apenas sustente o zumbido da posição do <i>s</i> ou do <i>sh</i>!	Mandarim::03_Pronuncia_Pares_Minimos
+[Pronúncia] Contraste: s vs sh (搜 sōu vs 收 shōu)	<b>sōu (搜) vs shōu (收 - receber)</b><br>Dentes quase encostados em <b>sōu</b>; língua recuada em <b>shōu</b>.	Mandarim::03_Pronuncia_Pares_Minimos
+[Pronúncia] Contraste: s vs sh (素 sù vs 树 shù)	<b>sù (素) vs shù (树 - árvore)</b><br>4º tom firme nos dois!	Mandarim::03_Pronuncia_Pares_Minimos
+[Pronúncia] Contraste de Aspiração: j vs q (鸡 jī vs 七 qī)	<b>jī (鸡 - frango) vs qī (七 - sete)</b><br>Mesma posição da língua (dentes de baixo): <b>j</b> sem ar; <b>q</b> com forte explosão de ar!	Mandarim::03_Pronuncia_Pares_Minimos
+[Pronúncia] Contraste de Aspiração: jiā vs qiā (家 vs 掐)	<b>jiā (家 - casa) vs qiā (掐)</b><br>Faça o teste da folha de papel: parada em <i>jiā</i>, voando em <i>qiā</i>.	Mandarim::03_Pronuncia_Pares_Minimos
+[Pronúncia] Contraste de Aspiração: jiǔ vs qiǔ (九 vs 糗)	<b>jiǔ (九 - nove) vs qiǔ (糗)</b><br>3º tom nos dois; exploda o ar apenas em <i>qiǔ</i>.	Mandarim::03_Pronuncia_Pares_Minimos
+[Pronúncia] Contraste de Aspiração: juǎn vs quǎn (卷 vs 犬)	<b>juǎn (卷) vs quǎn (犬)</b><br>Lembre-se da vogal <i>ü</i> após <i>j</i> e <i>q</i>.	Mandarim::03_Pronuncia_Pares_Minimos
+[Pronúncia] Contraste de Aspiração: z vs c (扎 zā vs 擦 cā)	<b>zā (扎) vs cā (擦)</b><br>• <b>z</b> = "dz" seco (sem ar).<br>• <b>c</b> = "ts" explodindo ar.	Mandarim::03_Pronuncia_Pares_Minimos
+[Pronúncia] Contraste de Aspiração: zǒng vs cǒng (总 vs 拢)	<b>zǒng (总 - sempre/geral) vs cǒng</b><br>Evite fazer som de "z" de zebra; faça "dz" surdo.	Mandarim::03_Pronuncia_Pares_Minimos
+[Pronúncia] Contraste de Aspiração: zùn vs cùn (遵 vs 寸)	<b>zùn vs cùn (寸 - polegada)</b><br>Explosão de ar forte em <b>cùn</b>.	Mandarim::03_Pronuncia_Pares_Minimos
+[Pronúncia] Contraste de Aspiração: zì vs cì (字 vs 次)	<b>zì (字 - caractere) vs cì (次 - vez)</b><br>Par mínimo essencial do dia a dia!	Mandarim::03_Pronuncia_Pares_Minimos
+[Pronúncia] Contraste de Aspiração: zh vs ch (扎 zhā vs 插 chā)	<b>zhā (扎) vs chā (插)</b><br>Língua curvada nos dois: <b>zh</b> sem sopro de ar; <b>ch</b> com sopro forte.	Mandarim::03_Pronuncia_Pares_Minimos
+[Pronúncia] Contraste de Aspiração: zhōng vs chōng (中 vs 冲)	<b>zhōng (中) vs chōng (冲)</b><br>1º tom alto e plano nos dois.	Mandarim::03_Pronuncia_Pares_Minimos
+[Pronúncia] Contraste de Aspiração: zhū vs chū (猪 vs 出)	<b>zhū (猪 - porco) vs chū (出 - sair)</b><br>Em <b>chū</b>, solte bastante ar antes do <i>u</i>.	Mandarim::03_Pronuncia_Pares_Minimos
+[Pronúncia] Contraste de Aspiração: zhì vs chì (制 vs 赤)	<b>zhì (制) vs chì (赤)</b><br>Vogal apical retroflexa nos dois.	Mandarim::03_Pronuncia_Pares_Minimos
+[Pronúncia] Vogal u vs ü (路 lù vs 绿 lǜ)	<b>lù (路 - rua) vs lǜ (绿 - verde / 律 lei)</b><br>Para fazer o <b>ü</b>: diga "iiii" e, sem mexer a língua, faça bico de "u"!	Mandarim::03_Pronuncia_Pares_Minimos
+[Pronúncia] Vogal u vs ü (努 nǔ vs 女 nǚ)	<b>nǔ (努) vs nǚ (女 - mulher)</b><br>Nunca pronuncie 女 como "nǔ"; mantenha a língua na posição do "i" com lábios em bico!	Mandarim::03_Pronuncia_Pares_Minimos
+[Pronúncia] Vogal u vs ü (姑 gū vs 居 jū)	<b>gū (姑) vs jū (居)</b><br>Em <b>jū</b>, embora não tenha trema escrito, a vogal é 100% <b>ü</b>!	Mandarim::03_Pronuncia_Pares_Minimos
+[Pronúncia] Vogal u vs ü (书 shū vs 虚 xū)	<b>shū (书 - livro) vs xū (虚)</b><br><b>shū</b> usa U normal; <b>xū</b> usa Ü arredondado frontal.	Mandarim::03_Pronuncia_Pares_Minimos
+[Pronúncia] Final Nasal -n vs -ng (安 ān vs 昂 āng)	<b>ān (安 - paz) vs āng (昂)</b><br>• <b>-n</b>: Ponta da língua toca atrás dos dentes superiores.<br>• <b>-ng</b>: Fundo da língua fecha lá atrás na garganta.	Mandarim::03_Pronuncia_Pares_Minimos
+[Pronúncia] Final Nasal -n vs -ng (陈 chén vs 成 chéng)	<b>chén (陈) vs chéng (成 - tornar-se)</b><br>Não engula a consoante final; marque claramente a ponta da língua (-n) vs garganta (-ng).	Mandarim::03_Pronuncia_Pares_Minimos
+[Pronúncia] Final Nasal -n vs -ng (金 jīn vs 经 jīng)	<b>jīn (金 - ouro) vs jīng (经 - passar por/clássico)</b><br>Em <b>jīn</b> é um "in" limpo dental; em <b>jīng</b> ressoa no fundo do véu palatino.	Mandarim::03_Pronuncia_Pares_Minimos
+[Pronúncia] Final Nasal -n vs -ng (身 shēn vs 生 shēng)	<b>shēn (身 - corpo) vs shēng (生 - nascer/vida)</b><br>Contraste campeão de provas auditivas do HSK!	Mandarim::03_Pronuncia_Pares_Minimos
+[Pronúncia] Som do R Chinês (日 rì vs 意 yì)	<b>rì (日 - dia/sol)</b><br>O <b>r</b> chinês NUNCA é o "rr" de rato na garganta: curve a língua para trás como no R caipira de Limeira/interior de SP misturado com um "j" suave!	Mandarim::03_Pronuncia_Pares_Minimos
+[Pronúncia] Som do R Chinês (人 rén vs 银 yín)	<b>rén (人 - pessoa)</b><br>Comece com a língua curvada no céu da boca e finalize com a ponta da língua nos dentes para o <b>-n</b>.	Mandarim::03_Pronuncia_Pares_Minimos
+[Pronúncia] Contraste R vs L (热 rè vs 乐 lè)	<b>rè (热 - quente) vs lè (乐 - feliz)</b><br>No <b>r</b> a ponta da língua fica suspensa/curvada sem bater nos dentes; no <b>l</b> ela bate atrás dos dentes superiores.	Mandarim::03_Pronuncia_Pares_Minimos
+[Pronúncia] Vogal Vazia Apical Dental (字 zì / 次 cì / 四 sì)	<b>zì, cì, sì</b><br>Não fale "zí, tsí, sí" com som de I agudo! Apenas prolongue o zumbido da consoante com os dentes fechados.	Mandarim::03_Pronuncia_Pares_Minimos
+[Pronúncia] Vogal Vazia Apical Retroflexa (知 zhī / 吃 chī / 师 shī / 日 rì)	<b>zhī, chī, shī, rì</b><br>Mantenha a língua curvada no céu da boca durante toda a sílaba, sem relaxar para o som de "i" normal.	Mandarim::03_Pronuncia_Pares_Minimos
+[Pronúncia] Vogal Retroflexa Final (二 èr — número 2)	<b>èr (二 - dois)</b><br>Comece no som de "â/é" e curve a língua imediatamente para trás (igual ao "r" do interior paulista em <i>porta</i>).	Mandarim::03_Pronuncia_Pares_Minimos
+[Tons e Sandhi] Como se pronuncia realmente 你好 (nǐ hǎo)?	<b>Pronúncia Real: ní hǎo (2º + 3º tom)</b><br><i>Regra do Sandhi do 3º Tom:</i> Quando dois 3ºs tons se encontram (3+3), o primeiro vira obrigatoriamente <b>2º tom</b>!	Mandarim::04_Tons_e_Sandhi
+[Tons e Sandhi] Como se pronuncia realmente 手表 (shǒubiǎo — relógio)?	<b>Pronúncia Real: shóubiǎo (2º + 3º tom)</b><br><i>Regra:</i> 3º tom + 3º tom -> 2º tom + 3º tom.	Mandarim::04_Tons_e_Sandhi
+[Tons e Sandhi] Como se pronuncia realmente 洗澡 (xǐzǎo — tomar banho)?	<b>Pronúncia Real: xízǎo (2º + 3º tom)</b><br><i>Regra:</i> 3º tom + 3º tom -> 2º tom + 3º tom.	Mandarim::04_Tons_e_Sandhi
+[Tons e Sandhi] Como se pronuncia realmente 水果 (shuǐguǒ — fruta)?	<b>Pronúncia Real: shuíguǒ (2º + 3º tom)</b><br><i>Regra:</i> 3º tom + 3º tom -> 2º tom + 3º tom.	Mandarim::04_Tons_e_Sandhi
+[Tons e Sandhi] Como se pronuncia realmente 辅导 (fǔdǎo — tutoria)?	<b>Pronúncia Real: fúdǎo (2º + 3º tom)</b><br><i>Regra:</i> 3º tom + 3º tom -> 2º tom + 3º tom.	Mandarim::04_Tons_e_Sandhi
+[Tons e Sandhi] Como se pronuncia realmente 了解 (liǎojiě — compreender)?	<b>Pronúncia Real: liáojiě (2º + 3º tom)</b><br><i>Regra:</i> 3º tom + 3º tom -> 2º tom + 3º tom.	Mandarim::04_Tons_e_Sandhi
+[Tons e Sandhi] Como se pronuncia realmente 友好 (yǒuhǎo — amigável)?	<b>Pronúncia Real: yóuhǎo (2º + 3º tom)</b><br><i>Regra:</i> 3º tom + 3º tom -> 2º tom + 3º tom.	Mandarim::04_Tons_e_Sandhi
+[Tons e Sandhi] Como se pronuncia realmente 管理 (guǎnlǐ — gerenciar)?	<b>Pronúncia Real: guánlǐ (2º + 3º tom)</b><br><i>Regra:</i> 3º tom + 3º tom -> 2º tom + 3º tom.	Mandarim::04_Tons_e_Sandhi
+[Tons e Sandhi] Como se pronuncia 我很好 (wǒ hěn hǎo — 3+3+3)?	<b>Pronúncia Real: wǒ hén hǎo (Meio-3º + 2º + 3º) ou wó hén hǎo</b><br>Agrupa-se por sentido: [wǒ] [hěn hǎo].	Mandarim::04_Tons_e_Sandhi
+[Tons e Sandhi] Como se pronuncia 我不懂 (wǒ bù dǒng)?	<b>Pronúncia Real: wǒ bù dǒng (Meio-3º + 4º + 3º)</b><br>Não há mudança para 2º tom porque no meio há um 4º tom (bù).	Mandarim::04_Tons_e_Sandhi
+[Tons e Sandhi] Como se pronuncia 不好 (bù hǎo — ruim)?	<b>Pronúncia Real: bù hǎo (4º + 3º tom)</b><br>Antes de 1º, 2º ou 3º tom, <b>不 (bù)</b> mantém seu 4º tom original!	Mandarim::04_Tons_e_Sandhi
+[Tons e Sandhi] Como se pronuncia 不要 (bù yào — não querer)?	<b>Pronúncia Real: bú yào (2º + 4º tom)</b><br><i>Regra do 不:</i> Antes de outro 4º tom, <b>bù</b> muda obrigatoriamente para <b>bú (2º tom)</b>!	Mandarim::04_Tons_e_Sandhi
+[Tons e Sandhi] Como se pronuncia 不是 (bù shì — não é)?	<b>Pronúncia Real: bú shì (2º + 4º tom)</b><br><i>Regra do 不:</i> 4º + 4º vira <b>2º + 4º (bú shì)</b>.	Mandarim::04_Tons_e_Sandhi
+[Tons e Sandhi] Como se pronuncia 不对 (bù duì — incorreto)?	<b>Pronúncia Real: bú duì (2º + 4º tom)</b><br><i>Regra do 不:</i> 4º + 4º vira <b>2º + 4º (bú duì)</b>.	Mandarim::04_Tons_e_Sandhi
+[Tons e Sandhi] Como se pronuncia 不够 (bù gòu — insuficiente)?	<b>Pronúncia Real: bú gòu (2º + 4º tom)</b><br><i>Regra do 不:</i> Muda para 2º tom antes de 4º tom.	Mandarim::04_Tons_e_Sandhi
+[Tons e Sandhi] Como se pronuncia 不大 (bù dà — não muito grande)?	<b>Pronúncia Real: bú dà (2º + 4º tom)</b><br><i>Regra do 不:</i> Muda para 2º tom antes de 4º tom.	Mandarim::04_Tons_e_Sandhi
+[Tons e Sandhi] Como se pronuncia 不会 (bù huì — não saber)?	<b>Pronúncia Real: bú huì (2º + 4º tom)</b><br><i>Regra do 不:</i> Muda para 2º tom antes de 4º tom.	Mandarim::04_Tons_e_Sandhi
+[Tons e Sandhi] Como se pronuncia 看不出来 (kàn bu chū lái)?	<b>Pronúncia Real: kàn bu chū lái (Tom Neutro no meio)</b><br>Dentro de complementos potenciais, 不 perde o tom e fica neutro (bu).	Mandarim::04_Tons_e_Sandhi
+[Tons e Sandhi] Como se pronuncia 一天 (yī tiān — um dia)?	<b>Pronúncia Real: yì tiān (4º + 1º tom)</b><br><i>Regra do 一 (yī):</i> Antes de 1º, 2º ou 3º tom, <b>yī</b> vira <b>yì (4º tom)</b>!	Mandarim::04_Tons_e_Sandhi
+[Tons e Sandhi] Como se pronuncia 一年 (yī nián — um ano)?	<b>Pronúncia Real: yì nián (4º + 2º tom)</b><br><i>Regra do 一:</i> Muda para 4º tom antes de 2º tom.	Mandarim::04_Tons_e_Sandhi
+[Tons e Sandhi] Como se pronuncia 一起 (yī qǐ — juntos)?	<b>Pronúncia Real: yì qǐ (4º + 3º tom)</b><br><i>Regra do 一:</i> Muda para 4º tom antes de 3º tom.	Mandarim::04_Tons_e_Sandhi
+[Tons e Sandhi] Como se pronuncia 一定 (yī dìng — com certeza)?	<b>Pronúncia Real: yí dìng (2º + 4º tom)</b><br><i>Regra do 一:</i> Antes de um 4º tom, <b>yī</b> vira <b>yí (2º tom)</b>!	Mandarim::04_Tons_e_Sandhi
+[Tons e Sandhi] Como se pronuncia 一块儿 (yī kuàir — juntos)?	<b>Pronúncia Real: yí kuàir (2º + 4º tom)</b><br><i>Regra do 一:</i> Muda para 2º tom antes de 4º tom.	Mandarim::04_Tons_e_Sandhi
+[Tons e Sandhi] Como se pronuncia 一下 (yī xià — um pouco/rapidinho)?	<b>Pronúncia Real: yí xià (2º + 4º tom)</b><br><i>Regra do 一:</i> Muda para 2º tom antes de 4º tom.	Mandarim::04_Tons_e_Sandhi
+[Tons e Sandhi] Como se pronuncia 一半 (yī bàn — metade)?	<b>Pronúncia Real: yí bàn (2º + 4º tom)</b><br><i>Regra do 一:</i> Muda para 2º tom antes de 4º tom.	Mandarim::04_Tons_e_Sandhi
+[Tons e Sandhi] Como se pronuncia 第一 (dì yī — primeiro)?	<b>Pronúncia Real: dì yī (4º + 1º tom puro)</b><br><i>Exceção do 一:</i> Em números ordinais (第一) ou contando (1, 2, 3), mantém o <b>1º tom (yī)</b>!	Mandarim::04_Tons_e_Sandhi
+[Tons e Sandhi] Como se pronuncia 星期一 (xīngqī yī — segunda-feira)?	<b>Pronúncia Real: xīngqī yī (1º tom puro no final)</b><br>No final de palavras e datas, 一 mantém o 1º tom!	Mandarim::04_Tons_e_Sandhi
+[Tons e Sandhi] Como se pronuncia 看一看 (kàn yī kàn — dar uma olhada)?	<b>Pronúncia Real: kàn yi kàn (Tom Neutro no meio)</b><br>Entre dois verbos repetidos, 一 fica em tom neutro curto (yi).	Mandarim::04_Tons_e_Sandhi
+[Tons e Sandhi] O que é o Meio-Terceiro Tom em 好人 (hǎo rén)?	<b>Pronúncia Real: hǎo (apenas desce grave 2->1) + rén (sobe 3->5)</b><br>Na vida real, o 3º tom antes de 1º, 2º ou 4º tom NÃO sobe no final: você só desce a voz para o grave!	Mandarim::04_Tons_e_Sandhi
+[Tons e Sandhi] Meio-Terceiro Tom em 好看 (hǎo kàn — bonito)	<b>hǎo (grave baixo 2->1) + kàn (cai do topo 5->1)</b><br>Segure <i>hǎo</i> lá embaixo na garganta e suba direto para disparar o 4º tom de <i>kàn</i>.	Mandarim::04_Tons_e_Sandhi
+[Tons e Sandhi] Meio-Terceiro Tom em 老师 (lǎoshī — professor)	<b>lǎo (grave baixo 2->1) + shī (alto plano 5->5)</b><br>Contraste perfeito entre a nota mais grave (lǎo) e a nota mais aguda sustentada (shī).	Mandarim::04_Tons_e_Sandhi
+[Tons e Sandhi] Par Tonal 1º + 2º: 中国 (Zhōngguó — China)	<b>Zhōng (1º alto plano) + guó (2º subindo)</b><br>Palavra-âncora para memorizar a combinação 1º + 2º tom.	Mandarim::04_Tons_e_Sandhi
+[Tons e Sandhi] Par Tonal 3º + 1º: 北京 (Běijīng — Pequim)	<b>Běi (Meio-3º grave) + jīng (1º alto plano)</b><br>Palavra-âncora para a combinação 3º + 1º tom.	Mandarim::04_Tons_e_Sandhi
+[Tons e Sandhi] Par Tonal 4º + 3º: 上海 (Shànghǎi — Xangai)	<b>Shàng (4º queda forte) + hǎi (3º grave)</b><br>Palavra-âncora para a combinação 4º + 3º tom.	Mandarim::04_Tons_e_Sandhi
+[Tons e Sandhi] Par Tonal 4º + 2º: 问题 (wèntí — pergunta/problema)	<b>wèn (4º queda rápida) + tí (2º subida)</b><br>Palavra-âncora para a combinação 4º + 2º tom.	Mandarim::04_Tons_e_Sandhi
+[Tons e Sandhi] Par Tonal 2º + 1º: 时间 (shíjiān — tempo)	<b>shí (2º subindo) + jiān (1º alto plano no topo)</b><br>Suba em <i>shí</i> e já estacione lá no alto para <i>jiān</i>.	Mandarim::04_Tons_e_Sandhi
+[Tons e Sandhi] Par Tonal 1º + 2º: 非常 (fēicháng — extremamente)	<b>fēi (1º alto) + cháng (2º subindo)</b><br>Mantenha o 1º tom estável antes de fazer o 2º subir.	Mandarim::04_Tons_e_Sandhi
+[Tons e Sandhi] Par Tonal 1º + 1º: 公司 (gōngsī — empresa)	<b>gōng (1º alto) + sī (1º alto)</b><br>Duas sílabas altas e planas na mesma nota musical (55-55).	Mandarim::04_Tons_e_Sandhi
+[Tons e Sandhi] Par Tonal 1º + 4º: 高兴 (gāoxìng — feliz)	<b>gāo (1º alto plano) + xìng (4º queda brusca)</b><br>Palavra-âncora para a combinação 1º + 4º tom.	Mandarim::04_Tons_e_Sandhi
+[Tons e Sandhi] Par Tonal 2º + 2º: 学习 (xuéxí — estudar)	<b>xué (2º subindo) + xí (2º subindo)</b><br>Duas subidas seguidas como quem pergunta "O quê? O quê?".	Mandarim::04_Tons_e_Sandhi
+[Tons e Sandhi] Par Tonal 3º + 4º: 法律 (fǎlǜ — Direito / Lei)	<b>fǎ (Meio-3º grave) + lǜ (4º queda firme com vogal ü)</b><br>Sua palavra-âncora jurídica para o par 3º + 4º tom!	Mandarim::04_Tons_e_Sandhi
+[Tons e Sandhi] Tom Neutro (2º + 0): 学生 (xuésheng — estudante)	<b>xué (2º subindo) + sheng (neutro curto e leve)</b><br>A 2ª sílaba dura metade do tempo e não tem acento tonal próprio.	Mandarim::04_Tons_e_Sandhi
+[Tons e Sandhi] Tom Neutro (4º + 0): 爸爸 (bàba — pai)	<b>bà (4º queda) + ba (neutro grave e curtinho)</b><br>Na repetição familiar, a 2ª sílaba é sempre tom neutro.	Mandarim::04_Tons_e_Sandhi
+[Tons e Sandhi] Tom Neutro (2º + 0): 朋友 (péngyou — amigo)	<b>péng (2º subindo) + you (neutro leve)</b><br>Não pronuncie <i>yǒu</i> pesado; solte <i>you</i> de forma curta.	Mandarim::04_Tons_e_Sandhi
+[Tons e Sandhi] Tom Neutro (3º + 0): 怎么 (zěnme — como)	<b>zěn (Meio-3º grave) + me (neutro)</b><br>Após 3º tom, a sílaba neutra apoia-se num tom médio-alto leve.	Mandarim::04_Tons_e_Sandhi
+[Tons e Sandhi] Tom Neutro com sufixo -zi: 孩子 (háizi — criança)	<b>hái (2º) + zi (neutro)</b><br>O sufixo nominal <b>子 (-zi)</b> é quase sempre pronunciado em tom neutro!	Mandarim::04_Tons_e_Sandhi
+[Tons e Sandhi] Tom Neutro (4º + 0): 意思 (yìsi — significado)	<b>yì (4º) + si (neutro curto)</b><br>Muito frequente em <i>shénme yìsi?</i> (qual o significado?).	Mandarim::04_Tons_e_Sandhi
+[Tons e Sandhi] Partícula Interrogativa em Tom Neutro: 吗 (ma)	<b>ma (Tom Neutro)</b><br>Colocada no fim de qualquer frase afirmativa, transforma-a em pergunta de Sim/Não.	Mandarim::04_Tons_e_Sandhi
+[Tons e Sandhi] Partícula de Aspecto em Tom Neutro: 了 (le)	<b>le (Tom Neutro com vogal schwa/ɤ curto)</b><br>Nunca pronuncie como "lê" longo do português; é curtíssimo!	Mandarim::04_Tons_e_Sandhi
+[Tons e Sandhi] Partícula Recíproca/Contínua em Tom Neutro: 呢 (ne)	<b>ne (Tom Neutro)</b><br>Usada para perguntar "E quanto a...?" (<i>Nǐ ne?</i> = E você?).	Mandarim::04_Tons_e_Sandhi
+[Gramática: 是...的 (Ênfase no Tempo)] 我是昨天来的。	<b>wǒ shì zuótiān lái de.</b> — Foi ontem que eu cheguei.<br><i>Regra:</i> Use <b>是...的</b> para enfatizar QUANDO, ONDE ou COMO algo que já aconteceu foi feito.	Mandarim::05_Gramatica_Estrutural
+[Gramática: 是...的 (Ênfase no Local)] 他是在北京学汉语的。	<b>tā shì zài Běijīng xué Hànyǔ de.</b> — Foi em Pequim que ele estudou chinês.<br><i>Regra:</i> Destaca o local de um evento passado conhecido.	Mandarim::05_Gramatica_Estrutural
+[Gramática: 是...的 (Ênfase no Meio)] 我们是坐飞机来的。	<b>wǒmen shì zuò fēijī lái de.</b> — Nós viemos foi de avião.<br><i>Regra:</i> Destaca o meio de transporte utilizado.	Mandarim::05_Gramatica_Estrutural
+[Gramática: 了 Completivo] 我吃了苹果。	<b>wǒ chī le píngguǒ.</b> — Eu comi a maçã.<br><i>Regra:</i> <b>了</b> logo após o verbo indica ação concluída.	Mandarim::05_Gramatica_Estrutural
+[Gramática: 了 de Mudança de Estado] 下雨了。	<b>xià yǔ le.</b> — Começou a chover! (Antes não chovia, agora chove).<br><i>Regra:</i> <b>了</b> no final da frase indica uma nova situação.	Mandarim::05_Gramatica_Estrutural
+[Gramática: 已经...了 (Já)] 我已经知道了。	<b>wǒ yǐjīng zhīdào le.</b> — Eu já fiquei sabendo.<br><i>Regra:</i> <b>已经 (yǐjīng)</b> caminha junto com <b>了</b> no final.	Mandarim::05_Gramatica_Estrutural
+[Gramática: 过 (Experiência de Vida)] 你去过中国吗？	<b>nǐ qù guo Zhōngguó ma?</b> — Você já foi à China alguma vez na vida?<br><i>Regra:</i> <b>Verbo + 过 (guo)</b> indica experiência vivida no passado.	Mandarim::05_Gramatica_Estrutural
+[Gramática: 没...过 (Nunca fez)] 我没吃过这个菜。	<b>wǒ méi chī guo zhège cài.</b> — Eu nunca comi este prato.<br><i>Regra:</i> Nega-se experiência passada com <b>没 (méi) + Verbo + 过</b> (nunca use 不!).	Mandarim::05_Gramatica_Estrutural
+[Gramática: 着 (Estado Contínuo)] 门开着。	<b>mén kāi zhe.</b> — A porta está aberta.<br><i>Regra:</i> <b>Verbo + 着 (zhe)</b> indica um estado resultante que permanece ativo.	Mandarim::05_Gramatica_Estrutural
+[Gramática: 着 (Ação Simultânea)] 他笑着说话。	<b>tā xiào zhe shuōhuà.</b> — Ele fala sorrindo.<br><i>Regra:</i> V1 + 着 + V2 indica o modo como o sujeito realiza a ação principal.	Mandarim::05_Gramatica_Estrutural
+[Gramática: Estrutura 把 (Manipulação de Objeto)] 请把门打开。	<b>qǐng bǎ mén dǎkāi.</b> — Por favor, abra a porta.<br><i>Regra:</i> <b>Sujeito + 把 + Objeto + Verbo + Resultado</b> (usado quando a ação transforma ou move o objeto determinado).	Mandarim::05_Gramatica_Estrutural
+[Gramática: Estrutura 把 com Conclusão] 我把作业做完了。	<b>wǒ bǎ zuòyè zuò wán le.</b> — Eu terminei toda a lição de casa.<br><i>Regra:</i> Puxa o objeto (作业) para antes do verbo com 把.	Mandarim::05_Gramatica_Estrutural
+[Gramática: Voz Passiva com 被] 苹果被他吃了。	<b>píngguǒ bèi tā chī le.</b> — A maçã foi comida por ele.<br><i>Regra:</i> <b>Objeto + 被 (bèi) + Agente + Verbo + Complemento</b>.	Mandarim::05_Gramatica_Estrutural
+[Gramática: Voz Passiva sem Agente] 我的手机被拿走了。	<b>wǒ de shǒujī bèi ná zǒu le.</b> — Meu celular foi levado embora.<br><i>Regra:</i> Se não sabemos quem fez, usamos <b>被 + Verbo</b> diretamente.	Mandarim::05_Gramatica_Estrutural
+[Gramática: Comparativo com 比] 今天比昨天冷。	<b>jīntiān bǐ zuótiān lěng.</b> — Hoje está mais frio do que ontem.<br><i>Regra:</i> <b>A + 比 + B + Adjetivo</b> (Atenção: nunca use 很 hěn junto com 比!).	Mandarim::05_Gramatica_Estrutural
+[Gramática: Comparativo Quantificado] 他比我大两岁。	<b>tā bǐ wǒ dà liǎng suì.</b> — Ele é 2 anos mais velho do que eu.<br><i>Regra:</i> A diferença numérica vai após o adjetivo.	Mandarim::05_Gramatica_Estrutural
+[Gramática: Complemento de Grau 得] 他跑得很快。	<b>tā pǎo de hěn kuài.</b> — Ele corre muito rápido.<br><i>Regra:</i> <b>Verbo + 得 (de) + Advérbio + Adjetivo</b> avalia como alguém faz uma ação.	Mandarim::05_Gramatica_Estrutural
+[Gramática: Complemento de Grau com Objeto] 汉语他说得很好。	<b>Hànyǔ tā shuō de hěn hǎo.</b> — Ele fala chinês muito bem.<br><i>Regra:</i> Como 得 precisa vir colado no verbo, colocamos o objeto no início (Tópico).	Mandarim::05_Gramatica_Estrutural
+[Gramática: Potencial Positivo (得)] 我听得懂中文。	<b>wǒ tīng de dǒng Zhōngwén.</b> — Eu consigo entender chinês (ouvindo).<br><i>Regra:</i> Verbo + <b>得</b> + Resultado = conseguir atingir o resultado.	Mandarim::05_Gramatica_Estrutural
+[Gramática: Potencial Negativo (不)] 我听不懂中文。	<b>wǒ tīng bù dǒng Zhōngwén.</b> — Eu não consigo entender chinês.<br><i>Regra:</i> Verbo + <b>不</b> + Resultado = não conseguir atingir o resultado.	Mandarim::05_Gramatica_Estrutural
+[Gramática: Ações Simultâneas 一边...一边...] 他一边听音乐，一边写作业。	<b>tā yìbiān tīng yīnyuè, yìbiān xiě zuòyè.</b> — Ele escuta música enquanto faz a tarefa.<br><i>Regra:</i> <b>一边 A, 一边 B</b> = fazer A e B ao mesmo tempo.	Mandarim::05_Gramatica_Estrutural
+[Gramática: Causa e Efeito 因为...所以...] 因为天冷，所以我们要多穿衣服。	<b>yīnwèi tiān lěng, suǒyǐ wǒmen yào duō chuān yīfu.</b> — Como está frio, precisamos vestir mais roupa.<br><i>Regra:</i> <b>因为 (porque) ... 所以 (portanto) ...</b>	Mandarim::05_Gramatica_Estrutural
+[Gramática: Concessão 虽然...但是...] 虽然很难，但是很有意思。	<b>suīrán hěn nán, dànshì hěn yǒu yìsi.</b> — Embora seja difícil, é muito interessante.<br><i>Regra:</i> <b>虽然 (embora) ... 但是 (mas) ...</b>	Mandarim::05_Gramatica_Estrutural
+[Gramática: Condicional 如果...就...] 如果下雨，我们就不去了。	<b>rúguǒ xià yǔ, wǒmen jiù bú qù le.</b> — Se chover, então nós não vamos mais.<br><i>Regra:</i> <b>如果 (se) A, Sujeito + 就 (então) B</b>.	Mandarim::05_Gramatica_Estrutural
+[Gramática: Adição 不但...而且...] 他不但会说英语，而且还会说汉语。	<b>tā búdàn huì shuō Yīngyǔ, érqiě hái huì shuō Hànyǔ.</b> — Ele não só fala inglês, como também fala chinês.	Mandarim::05_Gramatica_Estrutural
+[Gramática: Progressão 越来越...] 天气越来越热了。	<b>tiānqì yuè lái yuè rè le.</b> — O tempo está ficando cada vez mais quente.<br><i>Regra:</i> <b>越来越 + Adjetivo</b> = cada vez mais...	Mandarim::05_Gramatica_Estrutural
+[Gramática: "Ou" em Perguntas (还是)] 你想喝茶还是喝咖啡？	<b>nǐ xiǎng hē chá háishi hē kāfēi?</b> — Você quer beber chá OU café?<br><i>Regra:</i> Em perguntas de escolha, "ou" é SEMPRE <b>还是 (háishi)</b>!	Mandarim::05_Gramatica_Estrutural
+[Gramática: "Ou" em Afirmações (或者)] 我今天或者明天去。	<b>wǒ jīntiān huòzhě míngtiān qù.</b> — Eu vou hoje OU amanhã.<br><i>Regra:</i> Em frases afirmativas, "ou" é SEMPRE <b>或者 (huòzhě)</b>!	Mandarim::05_Gramatica_Estrutural
+[Gramática: Passado Recente 刚才 vs 刚] 我刚才去洗手间了。	<b>wǒ gāngcái qù xǐshǒujiān le.</b> — Fui ao banheiro agora há pouco.<br><i>Regra:</i> <b>刚才</b> = alguns minutos atrás; <b>刚</b> = acabou de ocorrer.	Mandarim::05_Gramatica_Estrutural
+[Gramática: Ação Imediata com 刚] 我刚到家。	<b>wǒ gāng dào jiā.</b> — Acabei de chegar em casa.<br><i>Regra:</i> <b>Sujeito + 刚 + Verbo</b>.	Mandarim::05_Gramatica_Estrutural
+[Gramática: Cedo/Rápido com 就 (jiù)] 他八点就来公司了。	<b>tā bā diǎn jiù lái gōngsī le.</b> — Ele chegou na empresa logo às 8h (cedo!).	Mandarim::05_Gramatica_Estrutural
+[Gramática: Tarde/Demorado com 才 (cái)] 他九点才来公司。	<b>tā jiǔ diǎn cái lái gōngsī.</b> — Ele só foi chegar na empresa às 9h (atrasado!).<br><i>Regra:</i> Frases com <b>才</b> não usam 了 no final!	Mandarim::05_Gramatica_Estrutural
+[Gramática: Ordem de Ouro da Frase Chinesa (S + Tempo + Lugar + Verbo)] 我明天在学校看书。	<b>wǒ míngtiān zài xuéxiào kàn shū.</b> — Eu [amanhã] [na escola] [lerei livro].<br><i>Regra de Ouro:</i> Em chinês, o TEMPO e o LUGAR vêm SEMPRE antes do verbo! Nunca no final como em português!	Mandarim::05_Gramatica_Estrutural
+[Gramática: Lugar antes do Verbo (在 + Local + Ação)] 他在家吃饭。	<b>tā zài jiā chī fàn.</b> — Ele [em casa] [come].<br><i>Regra:</i> Nunca diga "tā chī fàn zài jiā"; o lugar com 在 vem antes da ação!	Mandarim::05_Gramatica_Estrutural
+[Gramática: Classificador Geral 个 (gè)] 一个人	<b>yí gè rén</b> — Uma pessoa.<br><i>Regra:</i> Em chinês, entre um número/este/aquele e o substantivo, é obrigatório usar um classificador!	Mandarim::05_Gramatica_Estrutural
+[Gramática: Classificador de Animais 只 (zhī)] 一只猫	<b>yì zhī māo</b> — Um gato.<br><i>Regra:</i> <b>只 (zhī)</b> é usado para gatos, cachorros, pássaros e pequenos animais.	Mandarim::05_Gramatica_Estrutural
+[Gramática: Classificador de Livros 本 (běn)] 一本书	<b>yì běn shū</b> — Um livro.<br><i>Regra:</i> <b>本 (běn)</b> é usado para livros, revistas, cadernos e processos encadernados.	Mandarim::05_Gramatica_Estrutural
+[Gramática: Classificador de Superfícies Planas 张 (zhāng)] 一张桌子	<b>yì zhāng zhuōzi</b> — Uma mesa (ou folha de papel, passagem, foto, cama).	Mandarim::05_Gramatica_Estrutural
+[Gramática: Classificador de Coisas Longas 条 (tiáo)] 一条裤子	<b>yì tiáo kùzi</b> — Uma calça (também usado para ruas, rios, peixes, notícias e leis/artigos!).	Mandarim::05_Gramatica_Estrutural
+[Gramática: Classificador de Roupas e Assuntos 件 (jiàn)] 一件衣服	<b>yì jiàn yīfu</b> — Uma peça de roupa (ou <i>yí jiàn shì</i> = um assunto/caso).	Mandarim::05_Gramatica_Estrutural
+[Gramática: Classificador de Copo/Xícara 杯 (bēi)] 一杯咖啡	<b>yì bēi kāfēi</b> — Uma xícara/copo de café.	Mandarim::05_Gramatica_Estrutural
+[Gramática: Classificador de Pares 双 (shuāng)] 一双鞋	<b>yì shuāng xié</b> — Um par de sapatos (ou <i>yì shuāng kuàizi</i> = um par de hashis).	Mandarim::05_Gramatica_Estrutural
+[Gramática: Complemento Direcional (Afastando-se 去)] 他跑进去了。	<b>tā pǎo jìn qù le.</b> — Ele entrou correndo (para longe de onde eu estou).	Mandarim::05_Gramatica_Estrutural
+[Gramática: Complemento Direcional (Aproximando-se 来)] 请走出来。	<b>qǐng zǒu chū lái.</b> — Por favor, saia (vindo em minha direção).	Mandarim::05_Gramatica_Estrutural
+[Gramática: Reduplicação Verbal Suave] 试一试	<b>shì yi shì</b> — Dar uma experimentada / Tentar rapidinho.<br><i>Regra:</i> Suaviza o tom do verbo no diálogo.	Mandarim::05_Gramatica_Estrutural
+[Gramática: Reduplicação Adjetiva AABB] 高高兴兴	<b>gāogāo-xìngxìng</b> — Muito feliz / Todo contente.	Mandarim::05_Gramatica_Estrutural
+[Gramática: Distância com 离 (lí)] 我家离学校很近。	<b>wǒ jiā lí xuéxiào hěn jìn.</b> — Minha casa fica muito perto da escola.<br><i>Regra:</i> <b>A + 离 + B + 近/远</b>.	Mandarim::05_Gramatica_Estrutural
+[Gramática: Preposição 对 (Para / Em relação a)] 运动对身体很好。	<b>yùndòng duì shēntǐ hěn hǎo.</b> — Exercício físico é ótimo para a saúde.	Mandarim::05_Gramatica_Estrutural
+[Gramática: Inclusão 除了...以外，还...] 除了苹果以外，我还喜欢香蕉。	<b>chúle píngguǒ yǐwài, wǒ hái xǐhuan xiāngjiāo.</b> — Além de maçã, eu também gosto de banana.	Mandarim::05_Gramatica_Estrutural
+[Gramática: Ênfase Extrema 连...都/也...] 他连这个字都不认识。	<b>tā lián zhège zì dōu bú rènshi.</b> — Ele não conhece nem mesmo este caractere!	Mandarim::05_Gramatica_Estrutural
