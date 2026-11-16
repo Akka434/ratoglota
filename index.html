@@ -92,15 +92,83 @@ button, input, select, textarea {
   color: inherit;
 }
 
-/* TOP HEADER */
+/* TOP HEADER (SCROLLS AWAY NATURALLY SO CONTENT GETS 100% OF THE SCREEN) */
 .top-bar {
-  position: sticky;
-  top: 0;
+  position: relative;
   z-index: 60;
-  background: rgba(9, 8, 10, 0.90);
-  backdrop-filter: blur(14px);
+  background: rgba(9, 8, 10, 0.94);
   border-bottom: 1px solid var(--border-subtle);
-  padding: 12px 20px;
+  padding: 10px 18px;
+}
+
+.left-menu-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-main);
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: all 0.15s ease;
+}
+.left-menu-btn:hover {
+  border-color: var(--crimson-bright);
+  background: rgba(220, 38, 38, 0.16);
+}
+
+/* SLIDE-OUT LEFT CONFIG DRAWER */
+.config-drawer-backdrop {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 95;
+  background: rgba(0, 0, 0, 0.72);
+  backdrop-filter: blur(4px);
+}
+.config-drawer-backdrop.open {
+  display: block;
+}
+
+.config-drawer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: min(340px, 88vw);
+  z-index: 96;
+  background: var(--bg-card);
+  border-right: 1px solid var(--border-crimson);
+  padding: 20px 16px;
+  overflow-y: auto;
+  transform: translateX(-105%);
+  transition: transform 0.22s ease;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.config-drawer.open {
+  transform: translateX(0);
+}
+
+.hero-collapse-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.today-hero.collapsed .hero-collapsible-body {
+  display: none;
+}
+.today-hero.collapsed {
+  padding: 12px 16px;
+  grid-template-columns: 1fr;
+  gap: 0;
 }
 
 .top-bar-inner {
@@ -1291,37 +1359,84 @@ button, input, select, textarea {
 </head>
 <body>
 
-<!-- TOP NAVIGATION BAR -->
+<!-- SLIDE-OUT LEFT CONFIG DRAWER (RECOLHÍVEL) -->
+<div class="config-drawer-backdrop" id="configDrawerBackdrop" onclick="toggleConfigDrawer(false)"></div>
+<aside class="config-drawer" id="configDrawer" aria-label="Configurações do Perfil e Idioma">
+  <div style="display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--border-subtle);padding-bottom:12px;">
+    <strong style="font-size:1rem;color:#ffffff;">Configurar Ratoglota</strong>
+    <button class="btn btn-secondary btn-sm" onclick="toggleConfigDrawer(false)">Recuar</button>
+  </div>
+
+  <div class="form-group">
+    <label for="profileSelect">Perfil Conectado:</label>
+    <select id="profileSelect" class="form-input" onchange="switchActiveProfile(this.value)">
+      <option value="">Sem perfil conectado</option>
+    </select>
+    <button class="btn btn-primary btn-sm" style="width:100%;margin-top:8px;" onclick="toggleConfigDrawer(false); openProfileModal();">Entrar ou Criar Novo Perfil</button>
+  </div>
+
+  <div class="form-group">
+    <label for="langSelect">Idioma de Estudo:</label>
+    <select id="langSelect" class="form-input" onchange="changeLanguage(this.value)">
+      <option value="chines">[CN] Chinês (Mandarim)</option>
+      <option value="frances">[FR] Francês</option>
+      <option value="coreano">[KR] Coreano</option>
+      <option value="japones">[JP] Japonês</option>
+      <option value="ingles">[EN] Inglês</option>
+      <option value="espanhol">[ES] Espanhol</option>
+      <option value="italiano">[IT] Italiano</option>
+      <option value="russo">[RU] Russo</option>
+      <option value="alemao">[DE] Alemão</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label for="scheduleSelect">Meta Diária (Guia 04.1):</label>
+    <select id="scheduleSelect" class="form-input" onchange="changeScheduleMode(this.value)">
+      <option value="20">20 min (Sobrevivência)</option>
+      <option value="30">30 min (Manutenção)</option>
+      <option value="45" selected>45 min (Ponto de Ouro)</option>
+      <option value="60">60 min / 1h (Padrão Ideal)</option>
+      <option value="120">120 min / 2h (2 Turnos)</option>
+      <option value="180">180 min / 3h (3 Turnos)</option>
+    </select>
+  </div>
+
+  <div style="display:flex;flex-direction:column;gap:8px;padding-top:8px;border-top:1px solid var(--border-subtle);">
+    <button class="btn btn-secondary btn-sm" onclick="toggleConfigDrawer(false); openSyncModal();">Configurar Nuvem / Sala</button>
+    <button class="btn btn-crimson-outline btn-sm" id="pwaInstallBtn" onclick="triggerPwaInstall()">Instalar App no Celular</button>
+    <button class="btn btn-secondary btn-sm" onclick="forceAppRefresh()">Atualizar Versão (Limpar Cache)</button>
+  </div>
+</aside>
+
+<!-- TOP NAVIGATION BAR (COMPACTA E ROLA PARA CIMA AO DESCER A TELA) -->
 <header class="top-bar">
   <div class="top-bar-inner">
     <div class="brand">
+      <button class="left-menu-btn" onclick="toggleConfigDrawer(true)" title="Abrir menu de perfil, idioma e meta diária" aria-label="Configurações">
+        <svg class="svg-icon" viewBox="0 0 24 24"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+
       <!-- RED RAT HEAD + SINogram 鼠 EMBLEM -->
       <div class="ratoglota-emblem" title="Ratoglota — Cabeça de Rato Vermelho + Sinograma 鼠 (Shǔ)">
         <svg class="ratoglota-rat-svg" viewBox="0 0 100 100" aria-label="Ratoglota Logo">
-          <!-- Left & Right Round Rat Ears (inspired by reference image_0a40e5.png + crimson paper-cut) -->
           <circle cx="22" cy="24" r="17" fill="#991b1b" stroke="#ef4444" stroke-width="3.5"/>
           <circle cx="22" cy="24" r="9.5" fill="#dc2626"/>
           <circle cx="78" cy="24" r="17" fill="#991b1b" stroke="#ef4444" stroke-width="3.5"/>
           <circle cx="78" cy="24" r="9.5" fill="#dc2626"/>
-          <!-- Symmetrical Tapering Rat Head Silhouette -->
           <path d="M24 34 C24 17, 76 17, 76 34 C79 56, 65 82, 50 91 C35 82, 21 56, 24 34 Z" fill="#dc2626" stroke="#fca5a5" stroke-width="2.5"/>
-          <!-- Dual-tone right-half shading (like reference icon) -->
           <path d="M50 21 C68 21, 76 28, 76 34 C79 56, 65 82, 50 91 Z" fill="#b91c1c" opacity="0.65"/>
-          <!-- Subtle Chinese Paper-Cut Forehead Motif -->
           <path d="M50 27 L53 33 L50 39 L47 33 Z" fill="#fecaca"/>
-          <!-- Eyes with crisp highlights -->
           <circle cx="38" cy="48" r="5.5" fill="#18090c" stroke="#fecaca" stroke-width="1.5"/>
           <circle cx="36.5" cy="46.5" r="1.8" fill="#ffffff"/>
           <circle cx="62" cy="48" r="5.5" fill="#18090c" stroke="#fecaca" stroke-width="1.5"/>
           <circle cx="60.5" cy="46.5" r="1.8" fill="#ffffff"/>
-          <!-- Whiskers (3 per side, symmetrical like reference) -->
           <line x1="8" y1="66" x2="34" y2="71" stroke="#ef4444" stroke-width="3" stroke-linecap="round"/>
           <line x1="6" y1="76" x2="33" y2="76" stroke="#ef4444" stroke-width="3" stroke-linecap="round"/>
           <line x1="11" y1="86" x2="35" y2="80" stroke="#ef4444" stroke-width="3" stroke-linecap="round"/>
           <line x1="92" y1="66" x2="66" y2="71" stroke="#ef4444" stroke-width="3" stroke-linecap="round"/>
           <line x1="94" y1="76" x2="67" y2="76" stroke="#ef4444" stroke-width="3" stroke-linecap="round"/>
           <line x1="89" y1="86" x2="65" y2="80" stroke="#ef4444" stroke-width="3" stroke-linecap="round"/>
-          <!-- Snout Tip -->
           <ellipse cx="50" cy="82" rx="6.5" ry="4.5" fill="#18090c" stroke="#fecaca" stroke-width="1.5"/>
         </svg>
         <div class="ratoglota-hanzi-seal">
@@ -1330,53 +1445,16 @@ button, input, select, textarea {
         </div>
       </div>
       <div class="brand-text">
-        <h1>Ratoglota <span class="brand-tag">Sistema 10. Idiomas</span></h1>
-        <p>Comunidade Poliglota, SRS Integrado, Cronômetro por Turnos e Trilha Guiada</p>
+        <h1>Ratoglota <span class="brand-tag" id="topLangTag">CN • 45m</span></h1>
+        <p id="topProfileTag">Toque no menu à esquerda para configurar perfil e idioma</p>
       </div>
     </div>
 
     <div class="top-controls">
-      <div class="control-pill">
-        <label for="profileSelect">Perfil:</label>
-        <select id="profileSelect" onchange="switchActiveProfile(this.value)">
-          <option value="">Sem perfil conectado</option>
-        </select>
-        <button class="btn btn-crimson-outline btn-sm" onclick="openProfileModal()">Entrar / Criar</button>
-      </div>
-
-      <div class="control-pill">
-        <label for="langSelect">Idioma:</label>
-        <select id="langSelect" onchange="changeLanguage(this.value)">
-          <option value="chines">[CN] Chinês (Mandarim)</option>
-          <option value="frances">[FR] Francês</option>
-          <option value="coreano">[KR] Coreano</option>
-          <option value="japones">[JP] Japonês</option>
-          <option value="ingles">[EN] Inglês</option>
-          <option value="espanhol">[ES] Espanhol</option>
-          <option value="italiano">[IT] Italiano</option>
-          <option value="russo">[RU] Russo</option>
-          <option value="alemao">[DE] Alemão</option>
-        </select>
-      </div>
-
-      <div class="control-pill">
-        <label for="scheduleSelect">Meta/Dia:</label>
-        <select id="scheduleSelect" onchange="changeScheduleMode(this.value)">
-          <option value="20">20 min (Sobrevivência)</option>
-          <option value="30">30 min (Manutenção)</option>
-          <option value="45" selected>45 min (Ponto de Ouro)</option>
-          <option value="60">60 min / 1h (Padrão Ideal)</option>
-          <option value="120">120 min / 2h (2 Turnos)</option>
-          <option value="180">180 min / 3h (3 Turnos)</option>
-        </select>
-      </div>
-
       <div class="streak-badge" id="streakDisplay" title="Ofensiva atual do perfil conectado">
-        <span>OFENSIVA: 0 DIAS</span>
+        <span>OFENSIVA: 0D</span>
       </div>
-
       <button class="btn btn-emerald btn-sm" id="cloudStatusBtn" onclick="openSyncModal()" title="Sincronização instantânea em tempo real">Nuvem: Conectando...</button>
-      <button class="btn btn-primary btn-sm" id="pwaInstallBtn" onclick="triggerPwaInstall()">Instalar App</button>
     </div>
   </div>
 </header>
@@ -1384,10 +1462,15 @@ button, input, select, textarea {
 <main class="container">
   <!-- COMPACT CLEAN SLATE HOOK INTEGRATED INTO HERO -->
 
-  <!-- HERO: DIRECTIVE OF THE DAY -->
-  <section class="today-hero">
-    <div>
-      <div class="hero-eyebrow" id="heroEyebrow">PASSO ATUAL DA SUA JORNADA</div>
+  <!-- HERO: DIRECTIVE OF THE DAY (RECOLHÍVEL NO CELULAR E PC) -->
+  <section class="today-hero" id="todayHeroSection">
+    <div style="grid-column: 1 / -1;">
+      <div class="hero-collapse-bar">
+        <div class="hero-eyebrow" id="heroEyebrow" style="margin-bottom:0;">PASSO ATUAL DA SUA JORNADA</div>
+        <button class="btn btn-secondary btn-sm" id="toggleHeroBtn" onclick="toggleHeroCollapse()">Recolher Resumo</button>
+      </div>
+    </div>
+    <div class="hero-collapsible-body">
       <h2 id="heroTitle">Crie seu perfil ou selecione seu dia na Semana 0 para iniciar</h2>
       <p id="heroDescription">O Ratoglota integra os guias da pasta 10. Idiomas, flashcards SRS no próprio navegador com pronúncia nativa, cronômetro dividido por turnos (até 3 horas/dia) e mural + chat em grupo.</p>
       <div class="hero-actions">
@@ -1413,7 +1496,7 @@ button, input, select, textarea {
       </div>
     </div>
 
-    <div class="hero-stats-grid">
+    <div class="hero-stats-grid hero-collapsible-body">
       <div class="stat-box">
         <div class="stat-label">Perfil Conectado</div>
         <div class="stat-value" id="statProfileName">Visitante</div>
@@ -2420,6 +2503,18 @@ function initApp() {
   loadTimerBlock(0, false);
   renderAll();
 
+  try {
+    const savedCol = localStorage.getItem("ratoglota_hero_collapsed");
+    if (savedCol === "1" || (savedCol === null && window.innerWidth <= 820)) {
+      const hero = document.getElementById("todayHeroSection");
+      const btn = document.getElementById("toggleHeroBtn");
+      if (hero && btn) {
+        hero.classList.add("collapsed");
+        btn.textContent = "Mostrar Resumo";
+      }
+    }
+  } catch (e) {}
+
   if (state.cloudSyncUrl) {
     startRealtimeSync();
   }
@@ -2449,7 +2544,11 @@ function renderAll() {
   // Streak badge
   const streakEl = document.getElementById("streakDisplay");
   const streakCount = activeProfile ? (activeProfile.streak || 0) : 0;
-  streakEl.innerHTML = `<span>OFENSIVA: ${streakCount} ${streakCount === 1 ? 'DIA' : 'DIAS'}</span>`;
+  streakEl.innerHTML = `<span>OFENSIVA: ${streakCount}D</span>`;
+  const topLangEl = document.getElementById("topLangTag");
+  if (topLangEl) topLangEl.textContent = `${langCfg.code} • ${schedCfg.minutes}m`;
+  const topProfEl = document.getElementById("topProfileTag");
+  if (topProfEl) topProfEl.textContent = activeProfile ? `${activeProfile.name} (@${activeProfile.handle}) • ${langCfg.name}` : "Toque no menu à esquerda para entrar ou criar perfil";
 
   // Hero & Stats
   document.getElementById("statProfileName").textContent = activeProfile ? activeProfile.name : "Não conectado";
@@ -3626,11 +3725,19 @@ async function pushEntityToCloud(subPath, payloadObj) {
   const endpoint = getCloudEndpointUrl(subPath);
   if (!endpoint) return;
   try {
-    await fetch(endpoint, {
+    const res = await fetch(endpoint, {
       method: "PUT",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(payloadObj)
     });
+    if (!res.ok) {
+      setCloudStatusUI("Nuvem: Erro " + res.status, false);
+      if (res.status === 401 || res.status === 403) {
+        showToast("Firebase bloqueou a gravação (Erro " + res.status + "). No Firebase Console -> Realtime Database -> Regras, defina .read: true e .write: true.");
+      }
+      return;
+    }
+    setCloudStatusUI("Nuvem: Ao Vivo", true);
   } catch (e) {
     console.warn("Falha no envio atômico:", e);
   }
@@ -3790,6 +3897,41 @@ function updateDailyLoopBar() {
   if (s3 && s3b) {
     s3.classList.toggle("done", checkedToday);
     s3b.textContent = checkedToday ? "Feito hoje" : "Pendente";
+  }
+}
+
+
+function toggleConfigDrawer(open) {
+  const d = document.getElementById("configDrawer");
+  const b = document.getElementById("configDrawerBackdrop");
+  if (!d || !b) return;
+  d.classList.toggle("open", open);
+  b.classList.toggle("open", open);
+}
+
+function toggleHeroCollapse() {
+  const hero = document.getElementById("todayHeroSection");
+  const btn = document.getElementById("toggleHeroBtn");
+  if (!hero || !btn) return;
+  const collapsed = hero.classList.toggle("collapsed");
+  btn.textContent = collapsed ? "Mostrar Resumo" : "Recolher Resumo";
+  try {
+    localStorage.setItem("ratoglota_hero_collapsed", collapsed ? "1" : "0");
+  } catch (e) {}
+}
+
+function forceAppRefresh() {
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.getRegistrations().then(regs => {
+      regs.forEach(r => r.unregister());
+    });
+  }
+  if ("caches" in window) {
+    caches.keys().then(keys => Promise.all(keys.map(k => caches.delete(k)))).finally(() => {
+      window.location.reload();
+    });
+  } else {
+    window.location.reload();
   }
 }
 
